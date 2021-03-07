@@ -3,12 +3,28 @@ from bs4 import BeautifulSoup
 import json
 import os
 import sys
-from datetime import datetime
+import datetime
 import random
+from pytz import timezone, utc
 
-now = datetime.now()
-dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-print(f'PROGRAM START\n>>> DATE : {dt_string}\n')	
+KST = timezone('Asia/Seoul')
+now = datetime.datetime.utcnow()
+# UTC 기준 naive datetime : datetime.datetime(2019, 2, 15, 4, 18, 28, 805879)
+
+utc.localize(now)
+# UTC 기준 aware datetime : datetime.datetime(2019, 2, 15, 4, 18, 28, 805879, tzinfo=<UTC>)
+
+KST.localize(now)
+# UTC 시각, 시간대만 KST : datetime.datetime(2019, 2, 15, 4, 18, 28, 805879, tzinfo=<DstTzInfo 'Asia/Seoul' KST+9:00:00 STD>)
+
+NOW_KST_TIME = utc.localize(now).astimezone(KST)
+# KST 기준 aware datetime : datetime.datetime(2019, 2, 15, 13, 18, 28, 805879, tzinfo=<DstTzInfo 'Asia/Seoul' KST+9:00:00 STD>)
+
+
+# now = datetime.now()
+# dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+
+print(f'PROGRAM START\n>>> DATE : {NOW_KST_TIME}\n')	
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def get_soup_obj_by_target_url(target_url):
@@ -250,7 +266,7 @@ def crawl_Kakao():
     return RESULT_LIST
 
 CRWAL_DATA = dict()
-CRWAL_DATA['date'] = dt_string
+CRWAL_DATA['date'] = str(NOW_KST_TIME)
 CRWAL_DATA['data'] = []
 
 CRWAL_DATA['data'].extend(crawl_TechNiddle())
