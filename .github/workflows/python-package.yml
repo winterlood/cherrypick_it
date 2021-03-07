@@ -14,14 +14,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+    - name: Set up Python '3.8'
+      uses: actions/setup-python@v1
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: '3.8'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install -r requirements.txt
     - name: Run Crawler with python
       run: |
         python "crawler.py"
@@ -32,7 +32,7 @@ jobs:
         git add news.json
         git commit -m "Auto - Update data with Crawling" # 커밋 메세지
     - name: Push
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@main
       with:
         branch: 'main'
         repo_token: "${{ secrets.CHERRYPICK_IT_TOKEN }}"
