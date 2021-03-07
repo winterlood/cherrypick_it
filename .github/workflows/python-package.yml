@@ -34,4 +34,4 @@ jobs:
               uses: ad-m/github-push-action@main
               with:
                   branch: "main"
-                  repo_token: "${{ github_token.CHERRYPICK_IT_TOKEN }}"
+                  github_token: "${{ repo_token.CHERRYPICK_IT_TOKEN }}"
