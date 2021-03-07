@@ -1,38 +1,37 @@
 name: Run Crawler - Update data
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
-    
+    schedule:
+        - cron: "*/5 * * * *"
+
 jobs:
-  build:
+    build:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                python-version: [3.8]
 
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.8]
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python '3.8'
-      uses: actions/setup-python@v1
-      with:
-        python-version: '3.8'
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    - name: Run Crawler with python
-      run: |
-        python "crawler.py"
-    - name: Commits
-      run: |
-        git config --local user.email "king199777@gmail.com"
-        git config --local user.name "Update"
-        git add news.json
-        git commit -m "Auto - Update data with Crawling"
-    - name: Push
-      uses: ad-m/github-push-action@main
-      with:
-        branch: 'main'
-        repo_token: "${{ secrets.CHERRYPICK_IT_TOKEN }}"
+        steps:
+            - uses: actions/checkout@v2
+            - name: Set up Python '3.8'
+              uses: actions/setup-python@v1
+              with:
+                  python-version: "3.8"
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r requirements.txt
+            - name: Run Crawler with python
+              run: |
+                  python "crawler.py"
+            - name: Commits
+              run: |
+                  git config --local user.email "king199777@gmail.com"
+                  git config --local user.name "Update"
+                  git add news.json
+                  git commit -m "Auto - Update data with Crawling"
+            - name: Push
+              uses: ad-m/github-push-action@main
+              with:
+                  branch: "main"
+                  repo_token: "${{ github_token.CHERRYPICK_IT_TOKEN }}"
