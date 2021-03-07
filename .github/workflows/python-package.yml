@@ -2,7 +2,7 @@ name: Run Crawler - Update data # workflow 이름
 
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/5 * * * *'
     
 #   push:
 #     branches: [ main ]
@@ -37,7 +37,7 @@ jobs:
         git add news.json
         git commit -m "Auto - Update data with Crawling" # 커밋 메세지
     - name: Push
-      uses: ad-m/github-push-action@main
+      uses: ad-m/github-push-action@master
       with:
         branch: 'main'
         repo_token: "${{ secrets.CHERRYPICK_IT_TOKEN }}"
