@@ -1,4 +1,4 @@
-name: Run Crawler - Update data
+name: Run Crawler Ver3 - Update data
 on:
   schedule:
     - cron:  '*/5 * * * *'
