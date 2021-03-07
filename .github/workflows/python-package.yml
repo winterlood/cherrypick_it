@@ -2,7 +2,7 @@ name: Run Crawler - Update data # workflow 이름
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/2 * * * *'
     
 #   push:
 #     branches: [ main ]
@@ -39,5 +39,5 @@ jobs:
     - name: Push
       uses: ad-m/github-push-action@master
       with:
-        branch: 'master'
+        branch: 'main'
         repo_token: "${{ secrets.CHERRYPICK_IT_TOKEN }}"
