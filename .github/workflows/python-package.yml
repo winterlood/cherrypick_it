@@ -1,4 +1,4 @@
-name: Run Crawler - Update data # workflow 이름
+name: Run Crawler - Update data
 
 on:
   schedule:
@@ -28,9 +28,9 @@ jobs:
     - name: Commits
       run: |
         git config --local user.email "king199777@gmail.com"
-        git config --local user.name "Update" # 커밋에 포함될 이름
+        git config --local user.name "Update"
         git add news.json
-        git commit -m "Auto - Update data with Crawling" # 커밋 메세지
+        git commit -m "Auto - Update data with Crawling"
     - name: Push
       uses: ad-m/github-push-action@main
       with:
