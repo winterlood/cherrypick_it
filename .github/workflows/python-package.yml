@@ -31,7 +31,7 @@ jobs:
                   git add news.json
                   git commit -m "Auto - Update data with Crawling"
             - name: Push
-              uses: ad-m/github-push-action@main
+              uses: ad-m/github-push-action@master
               with:
                   branch: "main"
                   github_token: "${{ repo_token.CHERRYPICK_IT_TOKEN }}"
