@@ -37,7 +37,7 @@ jobs:
         git add news.json
         git commit -m "Auto - Update data with Crawling" # 커밋 메세지
     - name: Push
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@main
       with:
         branch: 'main'
         repo_token: "${{ secrets.CHERRYPICK_IT_TOKEN }}"
