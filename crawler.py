@@ -1,31 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import json
-import os
-import sys
-import datetime
-import random
-from pytz import timezone, utc
-
-KST = timezone('Asia/Seoul')
-now = datetime.datetime.utcnow()
-# UTC 기준 naive datetime : datetime.datetime(2019, 2, 15, 4, 18, 28, 805879)
-
-utc.localize(now)
-# UTC 기준 aware datetime : datetime.datetime(2019, 2, 15, 4, 18, 28, 805879, tzinfo=<UTC>)
-
-KST.localize(now)
-# UTC 시각, 시간대만 KST : datetime.datetime(2019, 2, 15, 4, 18, 28, 805879, tzinfo=<DstTzInfo 'Asia/Seoul' KST+9:00:00 STD>)
-
-NOW_KST_TIME = utc.localize(now).astimezone(KST)
-# KST 기준 aware datetime : datetime.datetime(2019, 2, 15, 13, 18, 28, 805879, tzinfo=<DstTzInfo 'Asia/Seoul' KST+9:00:00 STD>)
-
-
-# now = datetime.now()
-# dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-
-print(f'PROGRAM START\n>>> DATE : {NOW_KST_TIME}\n')	
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def get_soup_obj_by_target_url(target_url):
     req = requests.get(target_url)
@@ -265,19 +239,55 @@ def crawl_Kakao():
     print("#"*30)
     return RESULT_LIST
 
-CRWAL_DATA = dict()
-CRWAL_DATA['date'] = str(NOW_KST_TIME)
-CRWAL_DATA['data'] = []
+def crawl_INews24():
+    print('\n\n')
+    print("#"*30)
+    print("iNEWS24 CRAWL START")
+    target_url = 'http://www.inews24.com/list/it'
+    
+    soup = get_soup_obj_by_target_url(target_url)
 
-CRWAL_DATA['data'].extend(crawl_TechNiddle())
-CRWAL_DATA['data'].extend(crawl_ITWorld())
-CRWAL_DATA['data'].extend(crawl_Woowabros())
-CRWAL_DATA['data'].extend(crawl_Kakao())
-random.shuffle(CRWAL_DATA['data'])
-result_data_length = len(CRWAL_DATA['data'])
+    # RESULT LIST INIT
+    RESULT_LIST = []
 
-with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
-    json.dump(CRWAL_DATA, json_file, ensure_ascii = False, indent='\t')
+    # GET POST ITEMS 
+    post_box_list = soup.find_all('li',{'class','list'})
+
+    # GET POST DATAS
+    for idx,post_box in enumerate(post_box_list):
+        try:
+            post_data_dict = dict()
+            post_data_dict['source'] = 'http://www.inews24.com/'
+
+            # GET POST HEADLINE
+            headline_section = post_box.find('div',{'class','thumb'})
+            headline_tag = headline_section.find('a')
+            headline_text = headline_tag.getText()
+            post_data_dict['headline'] = headline_text
+
+            # GET POST THUMBNIAL
+            try:
+                img_tag = post_box.find('img')
+                img_url = img_tag['src']
+                post_data_dict['thumbnail_url'] = img_url
+            except Exception:
+                post_data_dict['thumbnail_url'] = ''
+
+            # GET POST LINK
+            a_tag = headline_section.find('a')
+            news_link = a_tag['href']
+            post_data_dict['url'] = f"http://www.inews24.com{news_link}"
+
+            # APPEND RESULT LIST
+            RESULT_LIST.append(post_data_dict)
+        except Exception as e:
+            print(e)
+            print("KAKAO 오류발생")
+
+    print(">>> KAKAO CRAWL DONE")
+    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
+    print("#"*30)
+    return RESULT_LIST
 
 
-print(f'\nPROGRAM DONE\n{result_data_length} DATA HAS STORED !\n')	
+print(crawl_INews24())
