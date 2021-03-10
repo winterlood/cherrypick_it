@@ -39,6 +39,7 @@ CRWAL_DATA['data'].extend(crawl_ITWorld())
 CRWAL_DATA['data'].extend(crawl_Woowabros())
 CRWAL_DATA['data'].extend(crawl_Kakao())
 CRWAL_DATA['data'].extend(crawl_INews24())
+CRWAL_DATA['data'].extend(crawl_Velog())
 random.shuffle(CRWAL_DATA['data'])
 result_data_length = len(CRWAL_DATA['data'])
 

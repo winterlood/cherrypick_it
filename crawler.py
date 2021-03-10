@@ -282,12 +282,60 @@ def crawl_INews24():
             RESULT_LIST.append(post_data_dict)
         except Exception as e:
             print(e)
-            print("KAKAO 오류발생")
+            print("INEWS24 오류발생")
 
-    print(">>> KAKAO CRAWL DONE")
+    print(">>> INEWS24 CRAWL DONE")
+    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
+    print("#"*30)
+    return RESULT_LIST
+
+def crawl_Velog():
+    print('\n\n')
+    print("#"*30)
+    print("Velog CRAWL START")
+    target_url = 'https://velog.io/'
+    
+    soup = get_soup_obj_by_target_url(target_url)
+
+    # RESULT LIST INIT
+    RESULT_LIST = []
+
+    # GET POST ITEMS 
+    post_box_list = soup.find_all('div',{'class','sc-hzDkRC'})
+
+    # GET POST DATAS
+    for idx,post_box in enumerate(post_box_list):
+        try:
+            post_data_dict = dict()
+            post_data_dict['source'] = 'https://velog.io/'
+
+            # GET POST HEADLINE
+            headline_tag = post_box.find('h4')
+            headline_text = headline_tag.getText()
+            post_data_dict['headline'] = headline_text
+
+            # GET POST THUMBNIAL
+            try:
+                img_tag = post_box.find('img')
+                img_url = img_tag['src']
+                post_data_dict['thumbnail_url'] = img_url
+            except Exception:
+                post_data_dict['thumbnail_url'] = ''
+
+            # GET POST LINK
+            a_tag = post_box.find('a')
+            news_link = a_tag['href']
+            post_data_dict['url'] = f"https://velog.io{news_link}"
+
+            # APPEND RESULT LIST
+            RESULT_LIST.append(post_data_dict)
+        except Exception as e:
+            print(e)
+            print("Velog 오류발생")
+
+    print(">>> Velog CRAWL DONE")
     print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
     print("#"*30)
     return RESULT_LIST
 
 
-print(crawl_INews24())
