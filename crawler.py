@@ -123,7 +123,7 @@ def crawl_ITWorld():
             try:
                 img_tag = post_box.find('img')
                 img_url = img_tag['src']
-                post_data_dict['thumbnail_url'] = img_url
+                post_data_dict['thumbnail_url'] = f"https://www.itworld.co.kr{img_url}"
             except Exception:
                 post_data_dict['thumbnail_url'] = ''
 
