@@ -31,6 +31,7 @@ NEWS_DATA = []
 NEWS_DATA.extend(crawl_TechNiddle())
 NEWS_DATA.extend(crawl_ITWorld())
 NEWS_DATA.extend(crawl_INews24())
+NEWS_DATA.extend(crawl_Itdonga())
 random.shuffle(NEWS_DATA)
 
 # COLUMNS

@@ -172,6 +172,61 @@ def crawl_INews24():
     print("#"*30)
     return RESULT_LIST
 
+
+def crawl_Itdonga():
+    print('\n\n')
+    print("#"*30)
+    print("IT DONGA CRAWL START")
+    target_url = 'https://it.donga.com/news/'
+    
+    soup = get_soup_obj_by_target_url(target_url)
+
+    # RESULT LIST INIT
+    RESULT_LIST = []
+
+    # GET POST ITEMS 
+    post_box_list = soup.find_all('li',{'class','media'})
+
+    # GET POST DATAS
+    for idx,post_box in enumerate(post_box_list):
+        try:
+            post_data_dict = dict()
+            post_data_dict['source'] = 'https://it.donga.com'
+
+            # GET POST HEADLINE
+            headline_tag = post_box.find('h5')
+            headline_text = headline_tag.getText()
+            post_data_dict['headline'] = headline_text
+
+            # GET POST THUMBNIAL
+            try:
+                img_tag = post_box.find('img')
+                img_url = img_tag['src']
+                post_data_dict['thumbnail_url'] = img_url
+            except Exception:
+                post_data_dict['thumbnail_url'] = ''
+
+            # GET POST LINK
+            a_tag = post_box.find('a')
+            news_link = a_tag['href']
+            post_data_dict['url'] = f"https://it.donga.com{news_link}"
+
+            # APPEND RESULT LIST
+            RESULT_LIST.append(post_data_dict)
+
+            # APPEND ARTICLE TYPE
+            post_data_dict['type'] = 'TYPE_NEWS'
+
+        except Exception as e:
+            print(e)
+            print("IT DONGA 오류발생")
+
+    print(">>> IT DONGA CRAWL DONE")
+    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
+    print("#"*30)
+    return RESULT_LIST
+
+
 # COLUMN
 def crawl_Woowabros():
     print('\n\n')
