@@ -23,6 +23,7 @@ jobs:
                   git config --local user.email "king199777@gmail.com"
                   git config --local user.name "Auto_Crawler_Name"
                   git add news.json
+                  git add output.json
                   git commit -m "Auto - Update data with Crawling"
             - name: Push
               uses: ad-m/github-push-action@master
