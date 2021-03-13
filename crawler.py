@@ -195,14 +195,14 @@ def crawl_Itdonga():
 
             # GET POST HEADLINE
             headline_tag = post_box.find('h5')
-            headline_text = headline_tag.getText()
-            post_data_dict['headline'] = headline_text
+            headline_text = str(headline_tag.getText())
+            post_data_dict['headline'] = headline_text.strip()
 
             # GET POST THUMBNIAL
             try:
                 img_tag = post_box.find('img')
-                img_url = img_tag['src']
-                post_data_dict['thumbnail_url'] = img_url
+                img_url = img_tag['data-src']
+                post_data_dict['thumbnail_url'] = f"https://it.donga.com{img_url}"
             except Exception:
                 post_data_dict['thumbnail_url'] = ''
 
@@ -380,5 +380,4 @@ def crawl_Velog():
     print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
     print("#"*30)
     return RESULT_LIST
-
 
