@@ -1,0 +1,13 @@
+{
+    "news":[
+        {"name":"테크니들","homepage":"https://techneedle.com","type":"NEWS"},
+        {"name":"ITWorld Korea","homepage":"https://www.itworld.co.kr/","type":"NEWS"},
+        {"name":"아이뉴스24","homepage":"http://www.inews24.com/","type":"NEWS"},
+        {"name":"IT 동아","homepage":"https://it.donga.com/","type":"NEWS"}
+    ],
+    "column":[
+        {"name":"우아한형제들 기술블로그","homepage":"https://woowabros.github.io","type":"COLUMN"},
+        {"name":"카카오 기술블로그","homepage":"https://tech.kakao.com/blog/","type":"COLUMN"},
+        {"name":"Velog","homepage":"https://velog.io/","type":"COLUMN"}
+    ]
+}
