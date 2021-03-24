@@ -31,3 +31,4 @@ sniffio==1.2.0
 soupsieve==2.1
 urllib3==1.26.2
 pytz==2021.1
+xmltodict==0.12.0

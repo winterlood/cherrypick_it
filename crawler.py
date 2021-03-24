@@ -1,24 +1,95 @@
 import requests
 from bs4 import BeautifulSoup
+import multiprocessing as mp
 import traceback
+import xmltodict
+import json
+import pprint
+def get_rss_by_target_url(target_url):
+    try:
+        req = requests.get(target_url, timeout=3)
+        if req is not None: 
+            if req.ok:
+                # 성공 응답 시 액션
+                dict_type = xmltodict.parse(req.content)
+                json_type = json.dumps(dict_type)
+                dict2_type = json.loads(json_type)
+                item_list = dict2_type['rss']['channel']['item']
+                return item_list
+
+            else:
+                return 'ERROR'
+    except Exception as e:
+        print(e)
+        return 'ERROR'
+
+
+def rss_itdonga(NEWS_DATA):
+    print('\n\n')
+    print("#"*30)
+    print("ITDONGA CRAWL START")
+    proc = mp.current_process()
+    print(proc.name)
+    print(proc.pid)
+    rss_url = 'https://it.donga.com/feeds/rss'
+    item_list = get_rss_by_target_url(rss_url)
+    RESULT_LIST = []
+
+    for idx,item in enumerate(item_list[0:20]):
+        post_data_dict = dict()
+
+        headline_text = item['title']
+        news_link = item['link']
+        author_text = item['author']
+        email = author_text.split('(')[0].strip()
+        author_text = author_text.split('(')[1].split(')')[0]
+        description = item['description']
+        soup = BeautifulSoup(description, 'html.parser')
+        thumbnail = soup.find('img')['src']
+
+        post_data_dict['source'] = 'https://it.donga.com/'
+        post_data_dict['headline'] = headline_text
+        post_data_dict['thumbnail_url'] = thumbnail
+        post_data_dict['url'] = news_link
+        post_data_dict['author'] = author_text
+        post_data_dict['type'] = 'TYPE_NEWS'
+
+        # RESULT_LIST.append(post_data_dict)
+        NEWS_DATA.append(post_data_dict)
+        print('ITDONGA',len(NEWS_DATA))
+        # post_data_dict['author_email'] = email
+    return RESULT_LIST
 
 
 def get_soup_obj_by_target_url(target_url):
-    req = requests.get(target_url)
-    req.encoding= None
-    html = req.content
-    soup = BeautifulSoup(html, 'html.parser')
-    return soup
+    try:
+        req = requests.get(target_url, timeout=3)
+        if req is not None: 
+            if req.ok:
+                # 성공 응답 시 액션
+                req.encoding= None
+                html = req.content
+                soup = BeautifulSoup(html, 'html.parser')
+                return soup
+            else:
+                return 'ERROR'
+    except Exception as e:
+        print(e)
+        return 'ERROR'
 
 # NEWS
-def crawl_TechNiddle():
+def crawl_TechNiddle(NEWS_DATA):
     print('\n\n')
     print("#"*30)
     print("TECHNIDDLE CRAWL START")
-
+    proc = mp.current_process()
+    print(proc.name)
+    print(proc.pid)
     target_url = 'https://techneedle.com/archives/category/default'
     soup = get_soup_obj_by_target_url(target_url)
-
+    if soup == 'ERROR':
+        print("테크니들 오류발생")
+        return []
     # RESULT LIST INIT
     RESULT_LIST = []
 
@@ -46,8 +117,16 @@ def crawl_TechNiddle():
             news_link = a_tag['href']
             post_data_dict['url'] = news_link
 
+            # GET POST AUTHOR
+            cur_target_url = news_link
+            cur_soup = get_soup_obj_by_target_url(cur_target_url)
+            author_title_tag = cur_soup.find('a',{'class','url'})
+            post_data_dict['author'] = author_title_tag.getText()
+
+
             # APPEND RESULT LIST
-            RESULT_LIST.append(post_data_dict)
+            # RESULT_LIST.append(post_data_dict)
+            NEWS_DATA.append(post_data_dict)
 
             # APPEND ARTICLE TYPE
             post_data_dict['type'] = 'TYPE_NEWS'
@@ -57,15 +136,15 @@ def crawl_TechNiddle():
             print("테크니들 오류발생")
 
     print(">>> TECHNIDDLE CRAWL DONE")
-    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
-    print("#"*30)
-    return RESULT_LIST
 
-def crawl_ITWorld():
+def crawl_ITWorld(NEWS_DATA):
+
     print('\n\n')
     print("#"*30)
     print("ITWORLD CRAWL START")
-
+    proc = mp.current_process()
+    print(proc.name)
+    print(proc.pid)
     target_url = 'https://www.itworld.co.kr/news'
     soup = get_soup_obj_by_target_url(target_url)
 
@@ -99,28 +178,38 @@ def crawl_ITWorld():
             news_link = a_tag['href']
             post_data_dict['url'] = f"{post_data_dict['source']}{news_link}"
 
-            # APPEND RESULT LIST
-            RESULT_LIST.append(post_data_dict)
+            # GET POST AUTHOR
+            cur_target_url =  f"{post_data_dict['source']}{news_link}"
+            cur_soup = get_soup_obj_by_target_url(cur_target_url)
+            author_title_tag = cur_soup.find('div',{'class','node_source'})
+            post_data_dict['author'] = author_title_tag.getText()
 
-            # APPEND ARTICLE TYPE
+           # APPEND ARTICLE TYPE
             post_data_dict['type'] = 'TYPE_NEWS'
 
+            # APPEND RESULT LIST
+            NEWS_DATA.append(post_data_dict)
+            print('ITWORLD',len(NEWS_DATA))
+
+ 
         except Exception as e:
             print(e)
             print("ITWORLD 오류발생")
     print(">>> ITWORLD CRAWL DONE")
-    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
-    print("#"*30)
-    return RESULT_LIST
 
-def crawl_INews24():
+def crawl_INews24(NEWS_DATA):
     print('\n\n')
     print("#"*30)
     print("iNEWS24 CRAWL START")
+    proc = mp.current_process()
+    print(proc.name)
+    print(proc.pid)
     target_url = 'http://www.inews24.com/list/it'
     
     soup = get_soup_obj_by_target_url(target_url)
-
+    if soup == 'ERROR':
+        print("아이뉴스24 오류발생")
+        return []
     # RESULT LIST INIT
     RESULT_LIST = []
 
@@ -155,11 +244,20 @@ def crawl_INews24():
             news_link = a_tag['href']
             post_data_dict['url'] = f"http://www.inews24.com{news_link}"
 
-            # APPEND RESULT LIST
-            RESULT_LIST.append(post_data_dict)
+            # GET POST AUTHOR
+            cur_target_url = f"http://www.inews24.com{news_link}"
+            cur_soup = get_soup_obj_by_target_url(cur_target_url)
+            if cur_soup == 'ERROR':
+                continue
+            author_tag = cur_soup.find('author')
+            post_data_dict['author'] = author_tag.getText()
 
             # APPEND ARTICLE TYPE
             post_data_dict['type'] = 'TYPE_NEWS'
+
+            # APPEND RESULT LIST
+            # RESULT_LIST.append(post_data_dict)
+            NEWS_DATA.append(post_data_dict)
 
         except Exception as e:
             print(e)
@@ -168,19 +266,20 @@ def crawl_INews24():
 
 
     print(">>> INEWS24 CRAWL DONE")
-    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
-    print("#"*30)
-    return RESULT_LIST
 
-
-def crawl_Itdonga():
+def crawl_Itdonga(NEWS_DATA):
     print('\n\n')
     print("#"*30)
     print("IT DONGA CRAWL START")
+    proc = mp.current_process()
+    print(proc.name)
+    print(proc.pid)
     target_url = 'https://it.donga.com/news/'
     
     soup = get_soup_obj_by_target_url(target_url)
-
+    if soup == 'ERROR':
+        print("IT동아 오류발생")
+        return []
     # RESULT LIST INIT
     RESULT_LIST = []
 
@@ -211,6 +310,12 @@ def crawl_Itdonga():
             news_link = a_tag['href']
             post_data_dict['url'] = f"https://it.donga.com{news_link}"
 
+            # GET POST AUTHOR
+            author_tag = post_box.find('strong',{'class':'reporter'})
+            print(author_tag.getText())
+            news_author = author_tag.getText()
+            post_data_dict['author'] = news_author
+
             # APPEND RESULT LIST
             RESULT_LIST.append(post_data_dict)
 
@@ -222,13 +327,11 @@ def crawl_Itdonga():
             print("IT DONGA 오류발생")
 
     print(">>> IT DONGA CRAWL DONE")
-    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
-    print("#"*30)
-    return RESULT_LIST
+
 
 
 # COLUMN
-def crawl_Woowabros():
+def crawl_Woowabros(COLUMN_DATA):
     print('\n\n')
     print("#"*30)
     print("WOOWABROS CRAWL START")
@@ -257,22 +360,20 @@ def crawl_Woowabros():
             news_link = a_tag['href']
             post_data_dict['url'] = f"{post_data_dict['source']}{news_link}"
 
-            # APPEND RESULT LIST
-            RESULT_LIST.append(post_data_dict)
-
             # APPEND ARTICLE TYPE
             post_data_dict['type'] = 'TYPE_COLUMN'
 
+            # APPEND RESULT LIST
+            COLUMN_DATA.append(post_data_dict)
+
+
         except Exception as e:
             print(e)
-            print("ITWORLD 오류발생")
+            print("WOOWA BROS 오류발생")
 
     print(">>> WOOWABROS CRAWL DONE")
-    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
-    print("#"*30)
-    return RESULT_LIST
 
-def crawl_Kakao():
+def crawl_Kakao(COLUMN_DATA):
     print('\n\n')
     print("#"*30)
     print("KAKAO CRAWL START")
@@ -313,12 +414,11 @@ def crawl_Kakao():
             news_link = a_tag['href']
             post_data_dict['url'] = f"{news_link}"
 
-            # APPEND RESULT LIST
-            RESULT_LIST.append(post_data_dict)
-
             # APPEND ARTICLE TYPE
             post_data_dict['type'] = 'TYPE_COLUMN'
 
+            # APPEND RESULT LIST
+            COLUMN_DATA.append(post_data_dict)
         except Exception as e:
             print(e)
             print("KAKAO 오류발생")
@@ -328,7 +428,7 @@ def crawl_Kakao():
     print("#"*30)
     return RESULT_LIST
 
-def crawl_Velog():
+def crawl_Velog(COLUMN_DATA):
     print('\n\n')
     print("#"*30)
     print("Velog CRAWL START")
@@ -366,11 +466,11 @@ def crawl_Velog():
             news_link = a_tag['href']
             post_data_dict['url'] = f"https://velog.io{news_link}"
 
-            # APPEND RESULT LIST
-            RESULT_LIST.append(post_data_dict)
-
             # APPEND ARTICLE TYPE
             post_data_dict['type'] = 'TYPE_COLUMN'
+
+            # APPEND RESULT LIST
+            COLUMN_DATA.append(post_data_dict)
 
         except Exception as e:
             print(e)
@@ -381,3 +481,4 @@ def crawl_Velog():
     print("#"*30)
     return RESULT_LIST
 
+# crawl_INews24()
