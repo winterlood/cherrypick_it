@@ -447,13 +447,6 @@
 			"type": "TYPE_COLUMN"
 		},
 		{
-			"source": "https://tech.kakao.com/blog/",
-			"headline": "카카오 AI 추천을 소개합니다.",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/03/20210309_테크블로그-카카오-AI추천-802x333.png",
-			"url": "https://tech.kakao.com/2021/03/11/kakao-ai/",
-			"type": "TYPE_COLUMN"
-		},
-		{
 			"source": "https://woowabros.github.io",
 			"headline": "[함께 일하기] 온라인 근무와 회고",
 			"url": "https://woowabros.github.io/culture/2021/02/10/work-together-how-product-system-team-works.html",
