@@ -19,13 +19,6 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "http://www.inews24.com/",
-			"headline": "\"우리는 연봉 안오르나요?\"…판교는 처우개선 '칼바람' 분다",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616567509695_1_153718.jpg",
-			"url": "http://www.inews24.com/view/1352610",
-			"type": "TYPE_NEWS"
-		},
-		{
 			"source": "https://techneedle.com",
 			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/02/tmodel3-scaled.jpg?fit=960%2C575&ssl=1",
 			"headline": "테슬라, 미국 내 전기차 점유율 79% 차지",
