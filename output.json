@@ -362,13 +362,6 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "",
-			"headline": "\nLG전자, 미국 하와이에 상업용 ‘에너지저장시스템’ 공급\n",
-			"url": "https://www.itworld.co.kr/news/187583",
-			"type": "TYPE_NEWS"
-		},
-		{
 			"source": "https://it.donga.com",
 			"headline": "초소형전기차, 승차공유, 스마트 허브… 스마트시티 본사업 선정",
 			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/21/0eff35b1adbb42ea-thumbnail-1920x1080-70.jpg",
