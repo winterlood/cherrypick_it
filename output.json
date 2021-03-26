@@ -1,44 +1,9 @@
 {
-	"date": "2021-03-26 21:01:26.020863+09:00",
+	"date": "2021-03-27 03:10:02.238626+09:00",
 	"count_total": 102,
 	"count_news": 63,
 	"count_column": 39,
 	"data_news": [
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/intel-go-pc-ad-5.110x80.jpg?1616760087",
-			"headline": "\nIDG 블로그 | 인텔의 ‘안티 맥’ 광고는 그저 애플의 승리를 의미할 뿐\n",
-			"url": "https://www.itworld.co.kr/news/187773",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/02/2nd.png?fit=936%2C468&ssl=1",
-			"headline": "자율주행차 산업과 법적 규제의 변화 – 2부 (사이버 보안)",
-			"url": "https://techneedle.com/archives/40899",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/02/Picture1.png?fit=960%2C592&ssl=1",
-			"headline": "스트림릿, 머신러닝 웹개발을 쉽고 빠르게",
-			"url": "https://techneedle.com/archives/40919",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/microsoft_windows_bitlocker_encryption_desktop_pc_monitors-100802005-large.110x80.jpg?1616760087",
-			"headline": "\n\"지금 사용 중인 VPN은 과연 안전한가\" VPN 암호화의 이해\n",
-			"url": "https://www.itworld.co.kr/news/187918",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://it.donga.com",
-			"headline": "RPA 전문 기업 '블루프리즘' 출범··· RPA 시장 3강 구도 형성",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/25/45b93cabd1434447-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31763/",
-			"type": "TYPE_NEWS"
-		},
 		{
 			"source": "http://www.inews24.com/",
 			"headline": "인재 경영 본격화…글로벌 경쟁력 강화 나서는 넥슨",
@@ -47,45 +12,17 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/03/Picture4.png?fit=940%2C612&ssl=1",
-			"headline": "당신의 채용 당락을 결정하는 AI 채용 시스템",
-			"url": "https://techneedle.com/archives/41250",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/02/Doordash-사진.png?fit=960%2C521&ssl=1",
-			"headline": "미국의 배민 도어대시, 샐러드 로봇 스타트업 인수",
-			"url": "https://techneedle.com/archives/40845",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/ciokr/2021/03/GettyImages-1097840790.110x80.jpg?1616760087",
-			"headline": "\n\"혁신보다 현실\" 2021년 애널리틱스·AI 트렌드 3가지\n",
-			"url": "https://www.itworld.co.kr/news/187798",
-			"type": "TYPE_NEWS"
-		},
-		{
 			"source": "http://www.inews24.com/",
-			"headline": "LGD, '아이폰12 효과' 봤다…스마트폰 디스플레이 시장 3위",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1593407390269_1_181112.jpg",
-			"url": "http://www.inews24.com/view/1353407",
+			"headline": "오버워치 리그, 올해부터 전 경기 4K 화질 생중계",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616745923197_1_170540.jpg",
+			"url": "http://www.inews24.com/view/1353381",
 			"type": "TYPE_NEWS"
 		},
 		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/02/im-299407.jpg?fit=960%2C640&ssl=1",
-			"headline": "도어대시(Doordash) 투자자는 정점일지도 모르는 지금을 즐겨야 한다",
-			"url": "https://techneedle.com/archives/40975",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "라인게임즈, '이카루스 이터널' 구글 '톱10' 진입",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616118433924_1_164147.jpg",
-			"url": "http://www.inews24.com/view/1353368",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/02/featured-image.jpg?fit=960%2C416&ssl=1",
+			"headline": "2020년 킥스타터 (Kickstarter) 테크 분야 top 10",
+			"url": "https://techneedle.com/archives/40863",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -97,184 +34,9 @@
 		},
 		{
 			"source": "https://it.donga.com",
-			"headline": "[뉴스줌인] 2021년인데 LP 음반 새로 출시, 어째서?",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/e760affef7fe41a4-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31770/",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "로스트아크, 스트라이커 업데이트 이후 이용자 306% 급증",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616742422851_1_160714.jpg",
-			"url": "http://www.inews24.com/view/1353349",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/0326_1_chrome-live-caption-100882220-medium.110x80.jpg?1616760087",
-			"headline": "\n크롬 '실시간 자막' 도입, 오프라인 재생 콘텐츠에도 자동 자막 생성\n",
-			"url": "https://www.itworld.co.kr/news/187823",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/ciokr/2021/03/GettyImages-1168095937.110x80.jpg?1616760087",
-			"headline": "\n\"자연어 처리가 필요하다면\" 추천 파이썬 라이브러리 8종\n",
-			"url": "https://www.itworld.co.kr/news/187793",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://it.donga.com",
-			"headline": "[기고] 클라우드, 인공지능을 품에 안다",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/3fe745d45792457d-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31772/",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "과기정통부 2차관에 조경식 대통령비서실 디지털혁신비서관 ",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616738912331_1_150842.jpg",
-			"url": "http://www.inews24.com/view/1353316",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/03/Picture1-1.jpg?fit=624%2C326&ssl=1",
-			"headline": "CCPA (캘리포니아 개인정보보호법), 당신이 반드시 알아야 하는 3가지",
-			"url": "https://techneedle.com/archives/41314",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/ciokr/2021/03/GettyImages-1277214444.110x80.jpg?1616760087",
-			"headline": "\n또 다른 재난··· IT의 ‘정신건강’에도 팬데믹이 찾아왔다\n",
-			"url": "https://www.itworld.co.kr/news/187788",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "오버워치 리그, 올해부터 전 경기 4K 화질 생중계",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616745923197_1_170540.jpg",
-			"url": "http://www.inews24.com/view/1353381",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/0326_2_os-x-20-yrs-no-words-3.110x80.jpg?1616760087",
-			"headline": "\n맥 OS X 20주년에 바치는 헌사, \"필사적인 노력에서 태어난 혁신\"\n",
-			"url": "https://www.itworld.co.kr/news/187903",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "",
-			"headline": "\nKT-서울경찰청, “AI·빅데이터 기술로 보이스피싱 예방 나선다”\n",
-			"url": "https://www.itworld.co.kr/news/187853",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://it.donga.com",
-			"headline": "위기의 인텔, 반도체 위탁 생산으로 돌파구 찾나?",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/7a2c176f08a6480c-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31769/",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://it.donga.com",
-			"headline": "[뉴스줌인] 전력은 낮추고, 성능·용량은↑↑, 삼성전자의 새로운 DDR5는?",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/2d8dabb5b1f84383-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31768/",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/02/tmodel3-scaled.jpg?fit=960%2C575&ssl=1",
-			"headline": "테슬라, 미국 내 전기차 점유율 79% 차지",
-			"url": "https://techneedle.com/archives/40908",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "삼성·LG·SK 등 51개사 '디지털 전환' 위해 뭉쳤다",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616746229825_1_171046.jpg",
-			"url": "http://www.inews24.com/view/1353306",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/02/apple.jpg?fit=960%2C640&ssl=1",
-			"headline": "애플, 자율 주행차를 위한 센서 구입 협상 중",
-			"url": "https://techneedle.com/archives/40999",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/03/img2.jpg?fit=773%2C433&ssl=1",
-			"headline": "메달리아, 고객 경험 (CX) 시스템에 인공지능을 더하다",
-			"url": "https://techneedle.com/archives/41278",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://it.donga.com",
-			"headline": "IBM, 클라우드 보안 불안? ‘컨피덴셜 컴퓨팅’에 주목하라",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/25/006c3f74bb0446ea-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31766/",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "포스코ICT, 부산중기청과 중소 제조기업 공정혁신 업무협약",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1616737647341_1_145036.jpg",
-			"url": "http://www.inews24.com/view/1353296",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/02/Autonomous-driving-Barcelona.jpg?fit=960%2C549&ssl=1",
-			"headline": "자율주행차 산업과 법적 규제의 변화 – 1부",
-			"url": "https://techneedle.com/archives/40816",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "딜라이브 OTT박스로 비디오빌리지 '재열 ASMR' 본다",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/161674394442_1_163253.jpg",
-			"url": "http://www.inews24.com/view/1353366",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/03/infarm_Warehouse_Interior_by_xoio.jpg?fit=960%2C480&ssl=1",
-			"headline": "스마트팜 혁신 이끄는 인팜 (Infarm), 클라우드 기반 재배농장 확장",
-			"url": "https://techneedle.com/archives/41177",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "[IT돋보기] \"OTT·콘텐츠 키우자\"…후순위 밀린 통신-케이블 '합종연횡'",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/161172380154_1_155030.jpg",
-			"url": "http://www.inews24.com/view/1353340",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "",
-			"headline": "\n레드햇, AWS 레드햇 오픈시프트 서비스 ‘ROSA’ 출시\n",
-			"url": "https://www.itworld.co.kr/news/187868",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "",
-			"headline": "\n티맥스티베로-뉴타닉스, MOU 체결…“하이브리드 클라우드에서 DB관리 효율성 향상”\n",
-			"url": "https://www.itworld.co.kr/news/187843",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/GettyImages-671889032.110x80.jpg?1616760087",
-			"headline": "\n애저 AD는 원격 사용자 ID 관리에 어떻게 도움이 되는가\n",
-			"url": "https://www.itworld.co.kr/news/187908",
+			"headline": "같은 반도체 제조사인데 IDM? 파운드리? 팹리스? 무슨 차이?",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/0899f00e70324c3b-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31773/",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -286,37 +48,79 @@
 		},
 		{
 			"source": "https://it.donga.com",
-			"headline": "[뉴스줌인] 가상자산 특금법 개정안 시행, 주의할 점은?",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/b8664d9b72204fd0-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31771/",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "아크로니스, 서울에 첫 데이터센터 설립",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1616747924233_1_173900.jpg",
-			"url": "http://www.inews24.com/view/1353401",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.inews24.com/",
-			"headline": "서정식 현대오토에버 \"글로벌 모빌리티 SW기업 도약\"",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1616745056664_1_165107.jpg",
-			"url": "http://www.inews24.com/view/1353375",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-24-at-11.26.34-PM.png?fit=960%2C531&ssl=1",
-			"headline": "NFT 최대 마켓 플레이스 OpenSea와 DeFine Art",
-			"url": "https://techneedle.com/archives/41366",
+			"headline": "RPA 전문 기업 '블루프리즘' 출범··· RPA 시장 3강 구도 형성",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/25/45b93cabd1434447-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31763/",
 			"type": "TYPE_NEWS"
 		},
 		{
 			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/GettyImages-1159763217.110x80.jpg?1616760087",
-			"headline": "\n토픽 브리핑 | 점점 더 독해지는 랜섬웨어의 유일한 방어책 ‘백업’  \n",
-			"url": "https://www.itworld.co.kr/news/187913",
+			"thumbnail_url": "",
+			"headline": "\nKT-서울경찰청, “AI·빅데이터 기술로 보이스피싱 예방 나선다”\n",
+			"url": "https://www.itworld.co.kr/news/187853",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "'배그 모바일' 총 누적 매출 5.8조원 추정…中 영향? ",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616740508735_2_153526.jpg",
+			"url": "http://www.inews24.com/view/1353329",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/03/Picture1-1.jpg?fit=624%2C326&ssl=1",
+			"headline": "CCPA (캘리포니아 개인정보보호법), 당신이 반드시 알아야 하는 3가지",
+			"url": "https://techneedle.com/archives/41314",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/0326_1_chrome-live-caption-100882220-medium.110x80.jpg?1616782204",
+			"headline": "\n크롬 '실시간 자막' 도입, 오프라인 재생 콘텐츠에도 자동 자막 생성\n",
+			"url": "https://www.itworld.co.kr/news/187823",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://it.donga.com",
+			"headline": "위기의 인텔, 반도체 위탁 생산으로 돌파구 찾나?",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/7a2c176f08a6480c-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31769/",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/2019-01_BrandRefresh_slack-brand-refresh_header-1.110x80.png?1616782204",
+			"headline": "\n슬랙, 외부인 커뮤니케이션 기능 오남용 지적에 빠른 대응 \n",
+			"url": "https://www.itworld.co.kr/news/187878",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/02/Doordash-사진.png?fit=960%2C521&ssl=1",
+			"headline": "미국의 배민 도어대시, 샐러드 로봇 스타트업 인수",
+			"url": "https://techneedle.com/archives/40845",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/02/apple.jpg?fit=960%2C640&ssl=1",
+			"headline": "애플, 자율 주행차를 위한 센서 구입 협상 중",
+			"url": "https://techneedle.com/archives/40999",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "과기정통부 2차관에 조경식 대통령비서실 디지털혁신비서관 ",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616738912331_1_150842.jpg",
+			"url": "http://www.inews24.com/view/1353316",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://it.donga.com",
+			"headline": "[뉴스줌인] 가상자산 특금법 개정안 시행, 주의할 점은?",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/b8664d9b72204fd0-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31771/",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -327,6 +131,97 @@
 			"type": "TYPE_NEWS"
 		},
 		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/03/Picture4.png?fit=940%2C612&ssl=1",
+			"headline": "당신의 채용 당락을 결정하는 AI 채용 시스템",
+			"url": "https://techneedle.com/archives/41250",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/03/vesta-robot-amazon-bientot-chez-vous.jpg?fit=960%2C540&ssl=1",
+			"headline": "아마존, 가정용 로봇 ‘베스타’ 완성품 선보일까?",
+			"url": "https://techneedle.com/archives/41300",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://it.donga.com",
+			"headline": "[기고] 클라우드, 인공지능을 품에 안다",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/3fe745d45792457d-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31772/",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://it.donga.com",
+			"headline": "[뉴스줌인] 2021년인데 LP 음반 새로 출시, 어째서?",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/e760affef7fe41a4-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31770/",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-24-at-11.26.34-PM.png?fit=960%2C531&ssl=1",
+			"headline": "NFT 최대 마켓 플레이스 OpenSea와 DeFine Art",
+			"url": "https://techneedle.com/archives/41366",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/02/Picture1.png?fit=960%2C592&ssl=1",
+			"headline": "스트림릿, 머신러닝 웹개발을 쉽고 빠르게",
+			"url": "https://techneedle.com/archives/40919",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/03/infarm_Warehouse_Interior_by_xoio.jpg?fit=960%2C480&ssl=1",
+			"headline": "스마트팜 혁신 이끄는 인팜 (Infarm), 클라우드 기반 재배농장 확장",
+			"url": "https://techneedle.com/archives/41177",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "딜라이브 OTT박스로 비디오빌리지 '재열 ASMR' 본다",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/161674394442_1_163253.jpg",
+			"url": "http://www.inews24.com/view/1353366",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/deepfakes_fake-news_tv-head_manipulation_superimposed_brainwashed-100765698-large.110x80.jpg?1616782204",
+			"headline": "\n딥페이크 비디오의 작동 방법과 위험한 이유\n",
+			"url": "https://www.itworld.co.kr/news/187783",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/03/img2.jpg?fit=773%2C433&ssl=1",
+			"headline": "메달리아, 고객 경험 (CX) 시스템에 인공지능을 더하다",
+			"url": "https://techneedle.com/archives/41278",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/02/2nd.png?fit=936%2C468&ssl=1",
+			"headline": "자율주행차 산업과 법적 규제의 변화 – 2부 (사이버 보안)",
+			"url": "https://techneedle.com/archives/40899",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/GettyImages-1159763217.110x80.jpg?1616782204",
+			"headline": "\n토픽 브리핑 | 점점 더 독해지는 랜섬웨어의 유일한 방어책 ‘백업’  \n",
+			"url": "https://www.itworld.co.kr/news/187913",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/02/Autonomous-driving-Barcelona.jpg?fit=960%2C549&ssl=1",
+			"headline": "자율주행차 산업과 법적 규제의 변화 – 1부",
+			"url": "https://techneedle.com/archives/40816",
+			"type": "TYPE_NEWS"
+		},
+		{
 			"source": "https://it.donga.com",
 			"headline": "[스타트업-ing] 아이앤아이솔루션 “식품 찍으면 식단 자동 분석하는 나만의 영양사”",
 			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/25/6493f2ffd2f9498d-thumbnail-1920x1080-70.jpg",
@@ -334,24 +229,10 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/2019-01_BrandRefresh_slack-brand-refresh_header-1.110x80.png?1616760087",
-			"headline": "\n슬랙, 외부인 커뮤니케이션 기능 오남용 지적에 빠른 대응 \n",
-			"url": "https://www.itworld.co.kr/news/187878",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://it.donga.com",
-			"headline": "넷플릭스는 플랫폼 기업일까?",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/ef70932f5489438d-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31767/",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/02/featured-image.jpg?fit=960%2C416&ssl=1",
-			"headline": "2020년 킥스타터 (Kickstarter) 테크 분야 top 10",
-			"url": "https://techneedle.com/archives/40863",
+			"source": "http://www.inews24.com/",
+			"headline": "[IT돋보기] \"OTT·콘텐츠 키우자\"…후순위 밀린 통신-케이블 '합종연횡'",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/161172380154_1_155030.jpg",
+			"url": "http://www.inews24.com/view/1353340",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -362,31 +243,59 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/03/dashmart-hero2.jpg?fit=960%2C639&ssl=1",
-			"headline": "도어대시 (Doordash), 코로나19 진단 키트도 배달한다",
-			"url": "https://techneedle.com/archives/41353",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/deepfakes_fake-news_tv-head_manipulation_superimposed_brainwashed-100765698-large.110x80.jpg?1616760087",
-			"headline": "\n딥페이크 비디오의 작동 방법과 위험한 이유\n",
-			"url": "https://www.itworld.co.kr/news/187783",
+			"source": "http://www.inews24.com/",
+			"headline": "[OTT온에어] '민·관·산·학' 거대 콘텐츠 포럼 결성…\"콘텐츠 IP 코리아\"",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616747814308_1_174807.jpg",
+			"url": "http://www.inews24.com/view/1353399",
 			"type": "TYPE_NEWS"
 		},
 		{
 			"source": "http://www.inews24.com/",
-			"headline": "방통위 '팩트체크 국제 콘퍼런스' 개최",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1615941149792_1_164413.jpg",
-			"url": "http://www.inews24.com/view/1353374",
+			"headline": "LGD, '아이폰12 효과' 봤다…스마트폰 디스플레이 시장 3위",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1593407390269_1_181112.jpg",
+			"url": "http://www.inews24.com/view/1353407",
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/03/vesta-robot-amazon-bientot-chez-vous.jpg?fit=960%2C540&ssl=1",
-			"headline": "아마존, 가정용 로봇 ‘베스타’ 완성품 선보일까?",
-			"url": "https://techneedle.com/archives/41300",
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "",
+			"headline": "\n레드햇, AWS 레드햇 오픈시프트 서비스 ‘ROSA’ 출시\n",
+			"url": "https://www.itworld.co.kr/news/187868",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/intel-go-pc-ad-5.110x80.jpg?1616782204",
+			"headline": "\nIDG 블로그 | 인텔의 ‘안티 맥’ 광고는 그저 애플의 승리를 의미할 뿐\n",
+			"url": "https://www.itworld.co.kr/news/187773",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "",
+			"headline": "\n아크로니스, 서울에 ‘아크로니스 사이버 클라우드 데이터센터’ 설립\n",
+			"url": "https://www.itworld.co.kr/news/187828",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "'스무살' 맞은 알서포트…\"2025년까지 매출 2배 성장 목표\"",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1616749701631_1_180830.jpg",
+			"url": "http://www.inews24.com/view/1353405",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/microsoft_windows_bitlocker_encryption_desktop_pc_monitors-100802005-large.110x80.jpg?1616782204",
+			"headline": "\n\"지금 사용 중인 VPN은 과연 안전한가\" VPN 암호화의 이해\n",
+			"url": "https://www.itworld.co.kr/news/187918",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/GettyImages-671889032.110x80.jpg?1616782204",
+			"headline": "\n애저 AD는 원격 사용자 ID 관리에 어떻게 도움이 되는가\n",
+			"url": "https://www.itworld.co.kr/news/187908",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -398,16 +307,114 @@
 		},
 		{
 			"source": "http://www.inews24.com/",
-			"headline": "'배그 모바일' 총 누적 매출 5.8조원 추정…中 영향? ",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616740508735_2_153526.jpg",
-			"url": "http://www.inews24.com/view/1353329",
+			"headline": "삼성·LG·SK 등 51개사 '디지털 전환' 위해 뭉쳤다",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616746229825_1_171046.jpg",
+			"url": "http://www.inews24.com/view/1353306",
 			"type": "TYPE_NEWS"
 		},
 		{
 			"source": "http://www.inews24.com/",
-			"headline": "'스무살' 맞은 알서포트…\"2025년까지 매출 2배 성장 목표\"",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1616749701631_1_180830.jpg",
-			"url": "http://www.inews24.com/view/1353405",
+			"headline": "방통위 '팩트체크 국제 콘퍼런스' 개최",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1615941149792_1_164413.jpg",
+			"url": "http://www.inews24.com/view/1353374",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/ciokr/2021/03/GettyImages-1277214444.110x80.jpg?1616782204",
+			"headline": "\n또 다른 재난··· IT의 ‘정신건강’에도 팬데믹이 찾아왔다\n",
+			"url": "https://www.itworld.co.kr/news/187788",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/02/im-299407.jpg?fit=960%2C640&ssl=1",
+			"headline": "도어대시(Doordash) 투자자는 정점일지도 모르는 지금을 즐겨야 한다",
+			"url": "https://techneedle.com/archives/40975",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "",
+			"headline": "\n티맥스티베로-뉴타닉스, MOU 체결…“하이브리드 클라우드에서 DB관리 효율성 향상”\n",
+			"url": "https://www.itworld.co.kr/news/187843",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://it.donga.com",
+			"headline": "[뉴스줌인] 전력은 낮추고, 성능·용량은↑↑, 삼성전자의 새로운 DDR5는?",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/2d8dabb5b1f84383-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31768/",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "로스트아크, 스트라이커 업데이트 이후 이용자 306% 급증",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616742422851_1_160714.jpg",
+			"url": "http://www.inews24.com/view/1353349",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "라인게임즈, '이카루스 이터널' 구글 '톱10' 진입",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616118433924_1_164147.jpg",
+			"url": "http://www.inews24.com/view/1353368",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/03/dashmart-hero2.jpg?fit=960%2C639&ssl=1",
+			"headline": "도어대시 (Doordash), 코로나19 진단 키트도 배달한다",
+			"url": "https://techneedle.com/archives/41353",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "아크로니스, 서울에 첫 데이터센터 설립",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1616747924233_1_173900.jpg",
+			"url": "http://www.inews24.com/view/1353401",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://it.donga.com",
+			"headline": "IBM, 클라우드 보안 불안? ‘컨피덴셜 컴퓨팅’에 주목하라",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/25/006c3f74bb0446ea-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31766/",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/ciokr/2021/03/GettyImages-1168095937.110x80.jpg?1616782204",
+			"headline": "\n\"자연어 처리가 필요하다면\" 추천 파이썬 라이브러리 8종\n",
+			"url": "https://www.itworld.co.kr/news/187793",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://it.donga.com",
+			"headline": "넷플릭스는 플랫폼 기업일까?",
+			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/ef70932f5489438d-thumbnail-1920x1080-70.jpg",
+			"url": "https://it.donga.com/31767/",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "포스코ICT, 부산중기청과 중소 제조기업 공정혁신 업무협약",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1616737647341_1_145036.jpg",
+			"url": "http://www.inews24.com/view/1353296",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.inews24.com/",
+			"headline": "서정식 현대오토에버 \"글로벌 모빌리티 SW기업 도약\"",
+			"thumbnail_url": "http://image.inews24.com/200x150/face/image_joy/thumbnail/202103/1616745056664_1_165107.jpg",
+			"url": "http://www.inews24.com/view/1353375",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/itworld/2021/03_2/0326_2_os-x-20-yrs-no-words-3.110x80.jpg?1616782204",
+			"headline": "\n맥 OS X 20주년에 바치는 헌사, \"필사적인 노력에서 태어난 혁신\"\n",
+			"url": "https://www.itworld.co.kr/news/187903",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -418,20 +425,6 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "https://it.donga.com",
-			"headline": "같은 반도체 제조사인데 IDM? 파운드리? 팹리스? 무슨 차이?",
-			"thumbnail_url": "https://it.donga.com/media/__sized__/images/2021/3/26/0899f00e70324c3b-thumbnail-1920x1080-70.jpg",
-			"url": "https://it.donga.com/31773/",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://www.itworld.co.kr",
-			"thumbnail_url": "",
-			"headline": "\n아크로니스, 서울에 ‘아크로니스 사이버 클라우드 데이터센터’ 설립\n",
-			"url": "https://www.itworld.co.kr/news/187828",
-			"type": "TYPE_NEWS"
-		},
-		{
 			"source": "https://techneedle.com",
 			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/02/405ada8b66c1b713.jpg?fit=960%2C480&ssl=1",
 			"headline": "코로나 시대 사랑찾기 데이팅앱 top 10 (미국)",
@@ -439,14 +432,40 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "http://www.inews24.com/",
-			"headline": "[OTT온에어] '민·관·산·학' 거대 콘텐츠 포럼 결성…\"콘텐츠 IP 코리아\"",
-			"thumbnail_url": "http://image.inews24.com/200x150/face/image_gisa/thumbnail/202103/1616747814308_1_174807.jpg",
-			"url": "http://www.inews24.com/view/1353399",
+			"source": "https://www.itworld.co.kr",
+			"thumbnail_url": "https://www.itworld.co.kr/files/ciokr/2021/03/GettyImages-1097840790.110x80.jpg?1616782204",
+			"headline": "\n\"혁신보다 현실\" 2021년 애널리틱스·AI 트렌드 3가지\n",
+			"url": "https://www.itworld.co.kr/news/187798",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/02/tmodel3-scaled.jpg?fit=960%2C575&ssl=1",
+			"headline": "테슬라, 미국 내 전기차 점유율 79% 차지",
+			"url": "https://techneedle.com/archives/40908",
 			"type": "TYPE_NEWS"
 		}
 	],
 	"data_column": [
+		{
+			"source": "https://velog.io/",
+			"headline": "DB에 하지 말아야 할 경험담들",
+			"thumbnail_url": "https://media.vlpt.us/images/juunini/post/77f283c9-e7f8-4d63-a7e3-7b5d424326d1/20210224_224316.jpg?w=640",
+			"url": "https://velog.io/@juunini/DB에-하지-말아야-할-겪은-일들",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "시스템신뢰성개발팀을 소개합니다.",
+			"url": "https://woowabros.github.io/sre/2021/02/22/introduction-to-sre.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "코드리뷰가 쏘아올린 작은공",
+			"url": "https://woowabros.github.io/experience/2021/02/09/cory.html",
+			"type": "TYPE_COLUMN"
+		},
 		{
 			"source": "https://velog.io/",
 			"headline": "❤️하나뿐인 여자친구에게 하나뿐인 web app 선물하기",
@@ -455,50 +474,16 @@
 			"type": "TYPE_COLUMN"
 		},
 		{
-			"source": "https://velog.io/",
-			"headline": "Go언어로 JWT api-server 구현하기 1",
-			"thumbnail_url": "https://media.vlpt.us/images/qoxogus/post/8ee07b50-1418-4400-9ec8-38fe53138f1d/5.jpeg?w=640",
-			"url": "https://velog.io/@qoxogus/Go언어로-JWT-api-server-구현하기-1",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "사수에게 칭찬받는 PR 체크리스트",
-			"thumbnail_url": "https://media.vlpt.us/images/hyounglee/post/d7f4709f-15f7-433a-83c4-604a75a04f34/image.png?w=640",
-			"url": "https://velog.io/@hyounglee/checklist-codereview",
-			"type": "TYPE_COLUMN"
-		},
-		{
 			"source": "https://woowabros.github.io",
-			"headline": "가게 배달지역 관리방식 개편 프로젝트",
-			"url": "https://woowabros.github.io/experience/2021/02/27/s2-project.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://tech.kakao.com/blog/",
-			"headline": "kakao Career Boost Program for Cloud – 클라우드 하고 싶지만, 잘 모르겠는 분 얼른 오세요!!!!",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/03/클라우드-영입콘텐츠-배너-802x333.png",
-			"url": "https://tech.kakao.com/2021/03/10/kakao-career-boost-program-for-cloud/",
+			"headline": "[함께 일하기] 온라인 근무와 회고",
+			"url": "https://woowabros.github.io/culture/2021/02/10/work-together-how-product-system-team-works.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
 			"source": "https://velog.io/",
-			"headline": "FE 개발자가 구독중인 뉴스레터",
-			"thumbnail_url": "https://media.vlpt.us/images/jereint20/profile/7ef83690-3231-4465-809a-12a9d46dd51e/fireplace-whitebg.png?w=120",
-			"url": "https://velog.io/@jereint20/FE-developer-subscription",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "알아두면 쓸모 있는 Swift의 기능들",
-			"url": "https://woowabros.github.io/swift/2021/02/18/swift-dynamic-features.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "개발자가 다 똑같은 개발자는 아니에요.",
-			"thumbnail_url": "https://media.vlpt.us/images/koeunyeon/profile/7553dedc-76e4-49ab-a0d7-b9ad5afa2d5c/IMG_3952.jpeg?w=120",
-			"url": "https://velog.io/@koeunyeon/개발자가-다-똑같은-개발자는-아니에요",
+			"headline": "💩😢 커리어 첫 빅똥을 싼 뉴비들에게 바치는 위로",
+			"thumbnail_url": "https://media.vlpt.us/images/laviande22/post/84756ee9-751e-42de-a6d3-4f4556ef8d70/doesntwork.jpeg?w=640",
+			"url": "https://velog.io/@laviande22/newbie-outage",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -510,97 +495,8 @@
 		},
 		{
 			"source": "https://woowabros.github.io",
-			"headline": "시스템신뢰성개발팀을 소개합니다.",
-			"url": "https://woowabros.github.io/sre/2021/02/22/introduction-to-sre.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "프로모션용 웹앱 빌더, 만다오",
-			"url": "https://woowabros.github.io/woowabros/2021/03/08/mandao.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "Clean Code #1 깨끗한 코드",
-			"thumbnail_url": "https://media.vlpt.us/images/dnr6054/post/0d5f20b3-06a0-499e-8a64-6897c8164d9e/clean code thumbnail.JPG?w=640",
-			"url": "https://velog.io/@dnr6054/Clean-Code-1-깨끗한-코드-lxgdk1th",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "대기업 신입은 코딩괴물만 뽑는걸까? 대기업 공채의 허와 실 + 대기업 개발자 인터뷰",
-			"thumbnail_url": "https://media.vlpt.us/images/dongyi/post/30b0d0fb-ca83-497e-91e9-045145a4067a/썸네일 - 인터뷰.jpg?w=640",
-			"url": "https://velog.io/@dongyi/인터뷰-2-무스펙-대기업-신입-개발자-성공기",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "웹 개발 작업을 더 쉽고 효과적으로 만들어주는 유용한 도구들!",
-			"thumbnail_url": "https://media.vlpt.us/images/openhub/post/d296f593-819a-4b55-9dca-c76d7edaa34a/nice-webdev-tools.png?w=640",
-			"url": "https://velog.io/@openhub/웹-개발-작업을-효과적으로-만들어주는-유용한-도구들-7가지",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "html, css 문제와 몰랐던 것들",
-			"thumbnail_url": "https://media.vlpt.us/images/jerrynim_/post/8c5560a0-b0ea-48ee-9c50-95a51a7779fb/Group 16.jpg?w=640",
-			"url": "https://velog.io/@jerrynim_/html-css-문제와-몰랐던-것들",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "2020 회고 - 개발을 시작한 지 1년이 되었다",
-			"thumbnail_url": "https://media.vlpt.us/images/danmin20/post/6f45f97c-bcac-4aa5-a1e8-6fbb6c6cc791/image.png?w=640",
-			"url": "https://velog.io/@danmin20/2020-회고-개발을-시작한-지-1년이-되었다",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "개발자들에게 도움이 될 만한 9가지 기본 아마존 웹서버 (Amazon Web Service, AWS) 서비스",
-			"thumbnail_url": "https://media.vlpt.us/images/openhub/post/4a3c083b-f5b5-4ea9-b86f-139ccb1112e6/h-aws.jpg?w=640",
-			"url": "https://velog.io/@openhub/개발자들에게-도움이-될-만한-9가지-기본-아마존-웹서버-Amazon-Web-Service-AWS-서비스",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "프론트엔드 꿀 라이브러리 정리",
-			"thumbnail_url": "https://media.vlpt.us/images/1106laura/post/0b690c7f-de75-4616-a22f-2b6f1cfe3b1a/velog_title_1.png?w=640",
-			"url": "https://velog.io/@1106laura/프론트엔드-꿀-라이브러리-정리",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "우리는 마이스터고의 개발자입니다!🧐",
-			"thumbnail_url": "https://media.vlpt.us/images/jidole02/post/ddb50e66-5136-41bf-809b-bcbaf8546c66/image.png?w=640",
-			"url": "https://velog.io/@jidole02/우리는-마이스터고의-개발자입니다",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "잊을만 하면 돌아오는 정산 신병들",
-			"url": "https://woowabros.github.io/experience/2021/02/05/pilot-project-siyoung.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "네이티브 앱(Native App) vs 하이브리드 앱(Hybrid App) vs 프로그레시브 웹 앱(PWA) – 정의와 장단점",
-			"thumbnail_url": "https://media.vlpt.us/images/openhub/post/c486075a-496f-4ad0-b60e-de813ae1375c/h-pwa-navtive.jpg?w=640",
-			"url": "https://velog.io/@openhub/네이티브-앱Native-App-vs-하이브리드-앱Hybrid-App-vs-프로그레시브-웹-앱PWA-정의와-장단점",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://tech.kakao.com/blog/",
-			"headline": "카카오 AI 추천을 소개합니다.",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/03/20210309_테크블로그-카카오-AI추천-802x333.png",
-			"url": "https://tech.kakao.com/2021/03/11/kakao-ai/",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "DB에 하지 말아야 할 경험담들",
-			"thumbnail_url": "https://media.vlpt.us/images/juunini/post/77f283c9-e7f8-4d63-a7e3-7b5d424326d1/20210224_224316.jpg?w=640",
-			"url": "https://velog.io/@juunini/DB에-하지-말아야-할-겪은-일들",
+			"headline": "가게 배달지역 관리방식 개편 프로젝트",
+			"url": "https://woowabros.github.io/experience/2021/02/27/s2-project.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -619,9 +515,143 @@
 		},
 		{
 			"source": "https://velog.io/",
+			"headline": "개발자들에게 도움이 될 만한 9가지 기본 아마존 웹서버 (Amazon Web Service, AWS) 서비스",
+			"thumbnail_url": "https://media.vlpt.us/images/openhub/post/4a3c083b-f5b5-4ea9-b86f-139ccb1112e6/h-aws.jpg?w=640",
+			"url": "https://velog.io/@openhub/개발자들에게-도움이-될-만한-9가지-기본-아마존-웹서버-Amazon-Web-Service-AWS-서비스",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "Javascript 프로젝트를 시작하기에 앞서 - package 설정 ",
+			"thumbnail_url": "https://media.vlpt.us/images/bigsaigon333/post/87fcdfea-f11e-427a-880f-d63daa80518d/prettier-1280x720.png?w=640",
+			"url": "https://velog.io/@bigsaigon333/프로젝트를-시작하기에-앞서-package-설정",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "우아한테크캠프 Pro 후기",
+			"url": "https://woowabros.github.io/techcourse/2021/03/15/wootecamp-pro.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "대기업 신입은 코딩괴물만 뽑는걸까? 대기업 공채의 허와 실 + 대기업 개발자 인터뷰",
+			"thumbnail_url": "https://media.vlpt.us/images/dongyi/post/30b0d0fb-ca83-497e-91e9-045145a4067a/썸네일 - 인터뷰.jpg?w=640",
+			"url": "https://velog.io/@dongyi/인터뷰-2-무스펙-대기업-신입-개발자-성공기",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "⛅️ 하늘을 찢는 코딩 학원 광고",
+			"thumbnail_url": "https://media.vlpt.us/images/mowinckel/post/8697e46e-248b-4b08-aac1-8f0bb72e09d7/giphy.gif?w=640",
+			"url": "https://velog.io/@mowinckel/코딩-학원-광고와-비전공-개발자",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "React Design Pattern 🎨",
+			"thumbnail_url": "https://media.vlpt.us/images/holim0/post/576203cc-fe0f-43c9-971c-114f7a8177da/다지인 패턴 로고.png?w=640",
+			"url": "https://velog.io/@holim0/React-Design-Pattern",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "2020 회고 - 개발을 시작한 지 1년이 되었다",
+			"thumbnail_url": "https://media.vlpt.us/images/danmin20/post/6f45f97c-bcac-4aa5-a1e8-6fbb6c6cc791/image.png?w=640",
+			"url": "https://velog.io/@danmin20/2020-회고-개발을-시작한-지-1년이-되었다",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "네이티브 앱(Native App) vs 하이브리드 앱(Hybrid App) vs 프로그레시브 웹 앱(PWA) – 정의와 장단점",
+			"thumbnail_url": "https://media.vlpt.us/images/openhub/post/c486075a-496f-4ad0-b60e-de813ae1375c/h-pwa-navtive.jpg?w=640",
+			"url": "https://velog.io/@openhub/네이티브-앱Native-App-vs-하이브리드-앱Hybrid-App-vs-프로그레시브-웹-앱PWA-정의와-장단점",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "Go언어로 JWT api-server 구현하기 1",
+			"thumbnail_url": "https://media.vlpt.us/images/qoxogus/post/8ee07b50-1418-4400-9ec8-38fe53138f1d/5.jpeg?w=640",
+			"url": "https://velog.io/@qoxogus/Go언어로-JWT-api-server-구현하기-1",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "웹 개발 작업을 더 쉽고 효과적으로 만들어주는 유용한 도구들!",
+			"thumbnail_url": "https://media.vlpt.us/images/openhub/post/d296f593-819a-4b55-9dca-c76d7edaa34a/nice-webdev-tools.png?w=640",
+			"url": "https://velog.io/@openhub/웹-개발-작업을-효과적으로-만들어주는-유용한-도구들-7가지",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://tech.kakao.com/blog/",
+			"headline": "카카오가 하면 다르다 – 코로나 시대 신입 개발자 언택트 온보딩",
+			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/03/테크블로그21년-신입공채온보딩회고_1편-802x333.png",
+			"url": "https://tech.kakao.com/2021/03/23/welcome-new-krew1/",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "검색을 위한 데이터 다루기",
+			"url": "https://woowabros.github.io/woowabros/2021/03/02/search-system.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "2021 우아한형제들 경력 개발자 인터뷰",
+			"url": "https://woowabros.github.io/interview/2021/02/16/2021-interview.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "우리는 마이스터고의 개발자입니다!🧐",
+			"thumbnail_url": "https://media.vlpt.us/images/jidole02/post/ddb50e66-5136-41bf-809b-bcbaf8546c66/image.png?w=640",
+			"url": "https://velog.io/@jidole02/우리는-마이스터고의-개발자입니다",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "프로모션용 웹앱 빌더, 만다오",
+			"url": "https://woowabros.github.io/woowabros/2021/03/08/mandao.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "사수에게 칭찬받는 PR 체크리스트",
+			"thumbnail_url": "https://media.vlpt.us/images/hyounglee/post/d7f4709f-15f7-433a-83c4-604a75a04f34/image.png?w=640",
+			"url": "https://velog.io/@hyounglee/checklist-codereview",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
 			"headline": "지금까지 겪은 DB에 하지 말아야 할 짓",
 			"thumbnail_url": "https://media.vlpt.us/images/juunini/profile/8ca50dcf-ee46-48b1-9481-a0c11dff19d9/profile.jpg?w=120",
 			"url": "https://velog.io/@juunini/지금까지-겪은-DB에-하지-말아야-할-짓",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "html, css 문제와 몰랐던 것들",
+			"thumbnail_url": "https://media.vlpt.us/images/jerrynim_/post/8c5560a0-b0ea-48ee-9c50-95a51a7779fb/Group 16.jpg?w=640",
+			"url": "https://velog.io/@jerrynim_/html-css-문제와-몰랐던-것들",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "알아두면 쓸모 있는 Swift의 기능들",
+			"url": "https://woowabros.github.io/swift/2021/02/18/swift-dynamic-features.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://velog.io/",
+			"headline": "프론트엔드 꿀 라이브러리 정리",
+			"thumbnail_url": "https://media.vlpt.us/images/1106laura/post/0b690c7f-de75-4616-a22f-2b6f1cfe3b1a/velog_title_1.png?w=640",
+			"url": "https://velog.io/@1106laura/프론트엔드-꿀-라이브러리-정리",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "잊을만 하면 돌아오는 정산 신병들",
+			"url": "https://woowabros.github.io/experience/2021/02/05/pilot-project-siyoung.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -633,28 +663,16 @@
 		},
 		{
 			"source": "https://velog.io/",
-			"headline": "React Design Pattern 🎨",
-			"thumbnail_url": "https://media.vlpt.us/images/holim0/post/576203cc-fe0f-43c9-971c-114f7a8177da/다지인 패턴 로고.png?w=640",
-			"url": "https://velog.io/@holim0/React-Design-Pattern",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "우아한테크캠프 Pro 후기",
-			"url": "https://woowabros.github.io/techcourse/2021/03/15/wootecamp-pro.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "검색을 위한 데이터 다루기",
-			"url": "https://woowabros.github.io/woowabros/2021/03/02/search-system.html",
+			"headline": "개발자가 다 똑같은 개발자는 아니에요.",
+			"thumbnail_url": "https://media.vlpt.us/images/koeunyeon/profile/7553dedc-76e4-49ab-a0d7-b9ad5afa2d5c/IMG_3952.jpeg?w=120",
+			"url": "https://velog.io/@koeunyeon/개발자가-다-똑같은-개발자는-아니에요",
 			"type": "TYPE_COLUMN"
 		},
 		{
 			"source": "https://velog.io/",
-			"headline": "Javascript 프로젝트를 시작하기에 앞서 - package 설정 ",
-			"thumbnail_url": "https://media.vlpt.us/images/bigsaigon333/post/87fcdfea-f11e-427a-880f-d63daa80518d/prettier-1280x720.png?w=640",
-			"url": "https://velog.io/@bigsaigon333/프로젝트를-시작하기에-앞서-package-설정",
+			"headline": "🔐 https로 React 로컬 테스팅하기",
+			"thumbnail_url": "https://media.vlpt.us/images/yaytomato/post/89950602-725f-4708-88de-79ee812aeaf1/giphy (2).gif?w=640",
+			"url": "https://velog.io/@yaytomato/React-웹사이트-https로-로컬-테스팅하기",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -666,22 +684,23 @@
 		},
 		{
 			"source": "https://tech.kakao.com/blog/",
-			"headline": "카카오가 하면 다르다 – 코로나 시대 신입 개발자 언택트 온보딩",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/03/테크블로그21년-신입공채온보딩회고_1편-802x333.png",
-			"url": "https://tech.kakao.com/2021/03/23/welcome-new-krew1/",
+			"headline": "카카오 AI 추천을 소개합니다.",
+			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/03/20210309_테크블로그-카카오-AI추천-802x333.png",
+			"url": "https://tech.kakao.com/2021/03/11/kakao-ai/",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://tech.kakao.com/blog/",
+			"headline": "kakao Career Boost Program for Cloud – 클라우드 하고 싶지만, 잘 모르겠는 분 얼른 오세요!!!!",
+			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/03/클라우드-영입콘텐츠-배너-802x333.png",
+			"url": "https://tech.kakao.com/2021/03/10/kakao-career-boost-program-for-cloud/",
 			"type": "TYPE_COLUMN"
 		},
 		{
 			"source": "https://velog.io/",
-			"headline": "⛅️ 하늘을 찢는 코딩 학원 광고",
-			"thumbnail_url": "https://media.vlpt.us/images/mowinckel/post/8697e46e-248b-4b08-aac1-8f0bb72e09d7/giphy.gif?w=640",
-			"url": "https://velog.io/@mowinckel/코딩-학원-광고와-비전공-개발자",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "[함께 일하기] 온라인 근무와 회고",
-			"url": "https://woowabros.github.io/culture/2021/02/10/work-together-how-product-system-team-works.html",
+			"headline": "FE 개발자가 구독중인 뉴스레터",
+			"thumbnail_url": "https://media.vlpt.us/images/jereint20/profile/7ef83690-3231-4465-809a-12a9d46dd51e/fireplace-whitebg.png?w=120",
+			"url": "https://velog.io/@jereint20/FE-developer-subscription",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -689,25 +708,6 @@
 			"headline": "프론트엔드 개발자 면접 정리 ",
 			"thumbnail_url": "https://media.vlpt.us/images/suyeonme/post/96afceb5-4686-4fc9-80ed-9b4b225fa60f/vector-designer-s-desktop-illustration.jpg?w=640",
 			"url": "https://velog.io/@suyeonme/후기-프론트엔드-개발자-면접-정리",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://velog.io/",
-			"headline": "💩😢 커리어 첫 빅똥을 싼 뉴비들에게 바치는 위로",
-			"thumbnail_url": "https://media.vlpt.us/images/laviande22/post/84756ee9-751e-42de-a6d3-4f4556ef8d70/doesntwork.jpeg?w=640",
-			"url": "https://velog.io/@laviande22/newbie-outage",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "2021 우아한형제들 경력 개발자 인터뷰",
-			"url": "https://woowabros.github.io/interview/2021/02/16/2021-interview.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "코드리뷰가 쏘아올린 작은공",
-			"url": "https://woowabros.github.io/experience/2021/02/09/cory.html",
 			"type": "TYPE_COLUMN"
 		}
 	]
