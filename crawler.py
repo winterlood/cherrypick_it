@@ -65,6 +65,7 @@ def crawl_Itdonga(NEWS_DATA):
         post_data_dict['headline'] = headline_text
         post_data_dict['thumbnail_url'] = thumbnail
         post_data_dict['url'] = news_link
+        port_data_dict['type'] = 'TYPE_NEWS'
 
         # RESULT_LIST.append(post_data_dict)
         NEWS_DATA.append(post_data_dict)
