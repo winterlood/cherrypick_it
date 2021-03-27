@@ -1,12 +1,12 @@
 {
     "news":[
-        {"name":"IT NEWS","source_image":"https://raw.githubusercontent.com/winterlood/cherrypick_it/main/img/IMG_ITNEWS.png","source":"http://www.itnews.or.kr/","type":"NEWS"}
+        {"name":"IT NEWS","source_image":"https://raw.githubusercontent.com/winterlood/cherrypick_it/main/img/IMG_ITNEWS.png","source":"http://www.itnews.or.kr/","type":"NEWS"},
         {"name":"TechNeedle","source_image":"https://raw.githubusercontent.com/winterlood/cherrypick_it/main/img/IMG_TECHNEEDDLE.png","source":"https://techneedle.com","type":"NEWS"},
-        {"name":"IT동아","source_image":"https://raw.githubusercontent.com/winterlood/cherrypick_it/main/img/IMG_ITDONGA.png","source":"https://it.donga.com/","type":"NEWS"},
+        {"name":"IT동아","source_image":"https://raw.githubusercontent.com/winterlood/cherrypick_it/main/img/IMG_ITDONGA.png","source":"https://it.donga.com/","type":"NEWS"}
     ],
     "column":[
-        {"name":"우아한형제들 기술블로그","homepage":"https://woowabros.github.io","type":"COLUMN"},
-        {"name":"카카오 기술블로그","homepage":"https://tech.kakao.com/blog/","type":"COLUMN"},
-        {"name":"Velog","homepage":"https://velog.io/","type":"COLUMN"}
+        {"name":"우아한형제들 기술블로그","source_image":"https://raw.githubusercontent.com/winterlood/cherrypick_it/main/img/IMG_WOOWABROS.png","source":"https://woowabros.github.io","type":"COLUMN"},
+        {"name":"카카오 기술블로그","source_image":"https://raw.githubusercontent.com/winterlood/cherrypick_it/main/img/IMG_KAKAO.png","source":"https://tech.kakao.com/blog/","type":"COLUMN"},
+        {"name":"Velog","source_image":"https://raw.githubusercontent.com/winterlood/cherrypick_it/main/img/IMG_VELOG.png","source":"https://velog.io/","type":"COLUMN"}
     ]
 }
