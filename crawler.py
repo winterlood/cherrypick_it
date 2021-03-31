@@ -46,12 +46,11 @@ def crawl_Itdonga(NEWS_DATA):
     print("#"*30)
     print("ITDONGA CRAWL START")
     proc = mp.current_process()
-    print(proc.name)
-    print(proc.pid)
     rss_url = 'https://it.donga.com/feeds/rss'
     item_list = get_rss_by_target_url(rss_url)
     RESULT_LIST = []
 
+    crawl_count = 0
     for idx,item in enumerate(item_list[0:20]):
         post_data_dict = dict()
 
@@ -65,12 +64,14 @@ def crawl_Itdonga(NEWS_DATA):
         post_data_dict['headline'] = headline_text
         post_data_dict['thumbnail_url'] = thumbnail
         post_data_dict['url'] = news_link
-        port_data_dict['type'] = 'TYPE_NEWS'
+        post_data_dict['type'] = 'TYPE_NEWS'
 
         # RESULT_LIST.append(post_data_dict)
         NEWS_DATA.append(post_data_dict)
-        print('ITDONGA',len(NEWS_DATA))
-        # post_data_dict['author_email'] = email
+        crawl_count =crawl_count +1
+    print('='*50)
+    print(f'IT 동아 {crawl_count}개 크롤링 완료')
+    print('='*50)
     return RESULT_LIST
 
 def crawl_TechNiddle(NEWS_DATA):
@@ -78,8 +79,6 @@ def crawl_TechNiddle(NEWS_DATA):
     print("#"*30)
     print("TECHNIDDLE CRAWL START")
     proc = mp.current_process()
-    print(proc.name)
-    print(proc.pid)
     target_url = 'https://techneedle.com/archives/category/default'
     soup = get_soup_obj_by_target_url(target_url)
     if soup == 'ERROR':
@@ -92,6 +91,7 @@ def crawl_TechNiddle(NEWS_DATA):
     post_box_list = soup.find_all('div',{'class':'post-inside'})
 
     # GET POST DATAS
+    crawl_count = 0
     for post_box in post_box_list:  
         try:
             post_data_dict = dict()
@@ -117,21 +117,20 @@ def crawl_TechNiddle(NEWS_DATA):
 
             # APPEND RESULT LIST
             NEWS_DATA.append(post_data_dict)
-
+            crawl_count = crawl_count + 1
 
         except Exception as e:
             print(e)
             print("테크니들 오류발생")
-
-    print(">>> TECHNIDDLE CRAWL DONE")
+    print('='*50)
+    print(f'TECHNIDDLE {crawl_count}개 크롤링 완료')
+    print('='*50)
 
 def crawl_itnews(NEWS_DATA):
     print('\n\n')
     print("#"*30)
     print("ITNEWS CRAWL START")
     proc = mp.current_process()
-    print(proc.name)
-    print(proc.pid)
     target_url = 'http://www.itnews.or.kr/?cat=1162'
     soup = get_soup_obj_by_target_url(target_url)
     if soup == 'ERROR':
@@ -145,6 +144,7 @@ def crawl_itnews(NEWS_DATA):
     post_box_list = soup.find_all('div',{'class':'meta-info-container'})
 
     # GET POST DATAS
+    crawl_count = 0
     for post_box in post_box_list:  
         try:
             post_data_dict = dict()
@@ -170,12 +170,13 @@ def crawl_itnews(NEWS_DATA):
 
             # APPEND RESULT LIST
             NEWS_DATA.append(post_data_dict)
-
+            crawl_count = crawl_count +1
         except Exception as e:
             print(e)
             print("ITNEWS 오류발생")
-
-    print(">>> ITNEWS CRAWL DONE")
+    print('='*50)
+    print(f'ITNEWS {crawl_count}개 크롤링 완료')
+    print('='*50)
 
 # 미 허용
 def crawl_ITWorld(NEWS_DATA):
@@ -236,7 +237,9 @@ def crawl_ITWorld(NEWS_DATA):
         except Exception as e:
             print(e)
             print("ITWORLD 오류발생")
-    print(">>> ITWORLD CRAWL DONE")
+    print('='*50)
+    print(f'ITWORLD {crawl_count}개 크롤링 완료')
+    print('='*50)
 
 # 미 허용
 def crawl_INews24(NEWS_DATA):
@@ -325,6 +328,7 @@ def crawl_Woowabros(COLUMN_DATA):
     post_box_list = soup.find_all('div',{'class':'list-module'})[:10]
 
     # GET POST DATAS
+    crawl_count = 0
     for idx,post_box in enumerate(post_box_list):
         try:
             post_data_dict = dict()
@@ -345,13 +349,13 @@ def crawl_Woowabros(COLUMN_DATA):
 
             # APPEND RESULT LIST
             COLUMN_DATA.append(post_data_dict)
-
-
+            crawl_count = crawl_count + 1
         except Exception as e:
             print(e)
             print("WOOWA BROS 오류발생")
-
-    print(">>> WOOWABROS CRAWL DONE")
+    print('='*50)
+    print(f'WOOWABROS {crawl_count}개 크롤링 완료')
+    print('='*50)
 
 def crawl_Kakao(COLUMN_DATA):
     print('\n\n')
@@ -371,6 +375,7 @@ def crawl_Kakao(COLUMN_DATA):
     post_box_list = post_section.find_all('li')
 
     # GET POST DATAS
+    crawl_count = 0
     for idx,post_box in enumerate(post_box_list):
         try:
             post_data_dict = dict()
@@ -399,13 +404,14 @@ def crawl_Kakao(COLUMN_DATA):
 
             # APPEND RESULT LIST
             COLUMN_DATA.append(post_data_dict)
+            crawl_count = crawl_count + 1
         except Exception as e:
             print(e)
             print("KAKAO 오류발생")
 
-    print(">>> KAKAO CRAWL DONE")
-    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
-    print("#"*30)
+    print('='*50)
+    print(f'KAKAO {crawl_count}개 크롤링 완료')
+    print('='*50)
     return RESULT_LIST
 
 def crawl_Velog(COLUMN_DATA):
@@ -423,6 +429,7 @@ def crawl_Velog(COLUMN_DATA):
     post_box_list = soup.find_all('div',{'class','sc-hzDkRC'})
 
     # GET POST DATAS
+    crawl_count = 0
     for idx,post_box in enumerate(post_box_list):
         try:
             post_data_dict = dict()
@@ -451,13 +458,13 @@ def crawl_Velog(COLUMN_DATA):
 
             # APPEND RESULT LIST
             COLUMN_DATA.append(post_data_dict)
-
+            crawl_count = crawl_count + 1
         except Exception as e:
             print(e)
             print("Velog 오류발생")
 
-    print(">>> Velog CRAWL DONE")
-    print(f">>> {len(RESULT_LIST)} HAS CRAWLED")
-    print("#"*30)
+    print('='*50)
+    print(f'KAKAO {crawl_count}개 크롤링 완료')
+    print('='*50)
     return RESULT_LIST
 

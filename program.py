@@ -65,15 +65,16 @@ def main():
     p1_column.join() # woowa bros
     p2_column.join() # kakao
     p3_column.join() # velog
-    print(len(COLUMN_DATA),' 개의 칼럼 추출완료')
     random.shuffle(COLUMN_DATA)
 
     p1_news.join() # 테크니들
     p2_news.join() # it news
     # p3_news.join() # inews24
     p4_news.join() # it 동아
-    print(len(NEWS_DATA),' 개의 뉴스 추출완료')
     random.shuffle(NEWS_DATA)
+
+    print(len(COLUMN_DATA),' 개의 칼럼 추출완료')
+    print(len(NEWS_DATA),' 개의 뉴스 추출완료')
 
 
   
