@@ -1,56 +1,14 @@
 {
-	"date": "2021-06-30 03:02:50.579302+09:00",
+	"date": "2021-06-30 09:13:09.535430+09:00",
 	"count_total": 45,
 	"count_news": 30,
 	"count_column": 15,
 	"data_news": [
 		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/05/Picture1.png?fit=567%2C338&ssl=1",
-			"headline": "스타트업의 지분 배분 (stock allocation), 얼마나 어떻게 할 것인가?",
-			"url": "https://techneedle.com/archives/41588",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/05/mercedes-benz-genh2-truck-concept_100761898_h.jpg?fit=960%2C632&ssl=1",
-			"headline": "벤츠의 트럭 엔진 공장, 50% 인력 감축 위기",
-			"url": "https://techneedle.com/archives/41776",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/코로나19를-이기는-힘-534x462.png",
-			"headline": "코로나19를 이기는 힘 ‘재미가 세상을 바꾼다’",
-			"url": "http://www.itnews.or.kr/?p=34880",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/40043078063_330ec029aa_b.jpg?fit=960%2C540&ssl=1",
-			"headline": "점성술 앱에 빠진 미국 MZ 세대",
-			"url": "https://techneedle.com/archives/41602",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-15-at-4.33.34-PM.png?fit=960%2C532&ssl=1",
-			"headline": "분할 주식 거래와 높은 캐시백 비율로 독일 젊은층 인기얻는 Vivid Money",
-			"url": "https://techneedle.com/archives/41665",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/KakaoTalk_20210407_120446544-534x462.png",
-			"headline": "스마트폰으로 돈 버는 블로그와 유튜브 과정",
-			"url": "http://www.itnews.or.kr/?p=34923",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/image-3.png?fit=936%2C472&ssl=1",
-			"headline": "스타트업과 스톡옵션 (1부)",
-			"url": "https://techneedle.com/archives/41762",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/06/6d490490-b44f-11eb-bcfe-f2faf631cdf8.cf_.jpg?fit=640%2C421&ssl=1",
+			"headline": "페이스북의 기억을 망각하는 인공지능 – Expire Span",
+			"url": "https://techneedle.com/archives/41898",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -61,66 +19,10 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/문형남.png",
-			"headline": "지속가능과학회, 국가ESG연구원 설립…초대 원장에 문형남 숙대 교수",
-			"url": "http://www.itnews.or.kr/?p=34876",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/03/kt-534x462.jpg",
-			"headline": "“종교 후원금, 전화 한 통으로 낸다”",
-			"url": "http://www.itnews.or.kr/?p=34801",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-19-at-9.59.09-PM.png?fit=960%2C489&ssl=1",
-			"headline": "구찌가 펼치는 가상세계 마케팅",
-			"url": "https://techneedle.com/archives/41699",
-			"type": "TYPE_NEWS"
-		},
-		{
 			"source": "https://techneedle.com",
 			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/06/1234.jpg?fit=879%2C485&ssl=1",
 			"headline": "3D 프린팅 로켓 스타트업 Relativity Space, 스페이스 X의 대항마가 되다",
 			"url": "https://techneedle.com/archives/41868",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/og-image.png?fit=960%2C502&ssl=1",
-			"headline": "독일에서 가장 빨리 유니콘이 된 스타트업 – 고릴라스 (Gorillas)",
-			"url": "https://techneedle.com/archives/41851",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/02/20210217-SAPI-NAVER-공동웨비나-포스터-534x450.jpg",
-			"headline": "네이버, 사람 위한 ‘AI 윤리 준칙’ 발표",
-			"url": "http://www.itnews.or.kr/?p=34730",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/03/5-534x341.jpg",
-			"headline": "2021년 제2회 인공지능 창업지도사 양성과정 개강",
-			"url": "http://www.itnews.or.kr/?p=34754",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/02/응답소-534x462.png",
-			"headline": "에스알포스트, 2년 연속 서울시 응답소 사업수주",
-			"url": "http://www.itnews.or.kr/?p=34692",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/06/EjP5kWfVcAMHkxW.png?fit=960%2C480&ssl=1",
-			"headline": "구글의 흑인 창업자 펀드와 다양성 문제",
-			"url": "https://techneedle.com/archives/41912",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -132,16 +34,9 @@
 		},
 		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/04/스크린샷-2021-04-28-오후-10.10.45.png?fit=960%2C535&ssl=1",
-			"headline": "도어대시, 수익성 개선 위해 중개 수수료 체계 바꾼다",
-			"url": "https://techneedle.com/archives/41566",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/693f6436-986a-4717-8fce-a84b74129c63_img2@2x_1920-scaled.jpg?fit=960%2C463&ssl=1",
-			"headline": "사람을 위한 모빌리티 – 택배기사 편의성 높인 Arrival 전기트럭",
-			"url": "https://techneedle.com/archives/41716",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-15-at-4.33.34-PM.png?fit=960%2C532&ssl=1",
+			"headline": "분할 주식 거래와 높은 캐시백 비율로 독일 젊은층 인기얻는 Vivid Money",
+			"url": "https://techneedle.com/archives/41665",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -152,17 +47,59 @@
 			"type": "TYPE_NEWS"
 		},
 		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/40043078063_330ec029aa_b.jpg?fit=960%2C540&ssl=1",
+			"headline": "점성술 앱에 빠진 미국 MZ 세대",
+			"url": "https://techneedle.com/archives/41602",
+			"type": "TYPE_NEWS"
+		},
+		{
 			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/02/최배근-500x462.jpg",
-			"headline": "최배근, ‘대한민국 대전환 100년의 조건’을 말하다",
-			"url": "http://www.itnews.or.kr/?p=34658",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/코로나19를-이기는-힘-534x462.png",
+			"headline": "코로나19를 이기는 힘 ‘재미가 세상을 바꾼다’",
+			"url": "http://www.itnews.or.kr/?p=34880",
 			"type": "TYPE_NEWS"
 		},
 		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/06/employee-stock-options-just-ahead-sign-2-650x325-1.jpg?fit=650%2C325&ssl=1",
-			"headline": "스타트업과 스톡옵션 (2부)",
-			"url": "https://techneedle.com/archives/41885",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/04/스크린샷-2021-04-28-오후-10.10.45.png?fit=960%2C535&ssl=1",
+			"headline": "도어대시, 수익성 개선 위해 중개 수수료 체계 바꾼다",
+			"url": "https://techneedle.com/archives/41566",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/05/Picture1.png?fit=567%2C338&ssl=1",
+			"headline": "스타트업의 지분 배분 (stock allocation), 얼마나 어떻게 할 것인가?",
+			"url": "https://techneedle.com/archives/41588",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/03/5-534x341.jpg",
+			"headline": "2021년 제2회 인공지능 창업지도사 양성과정 개강",
+			"url": "http://www.itnews.or.kr/?p=34754",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/05/mercedes-benz-genh2-truck-concept_100761898_h.jpg?fit=960%2C632&ssl=1",
+			"headline": "벤츠의 트럭 엔진 공장, 50% 인력 감축 위기",
+			"url": "https://techneedle.com/archives/41776",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/04/amazon4.png?fit=960%2C503&ssl=1",
+			"headline": "독일 아마존 물류 센터를 가다 (feat. 버추얼 투어)",
+			"url": "https://techneedle.com/archives/41498",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/image-3.png?fit=936%2C472&ssl=1",
+			"headline": "스타트업과 스톡옵션 (1부)",
+			"url": "https://techneedle.com/archives/41762",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -174,16 +111,58 @@
 		},
 		{
 			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/og-image.png?fit=960%2C502&ssl=1",
+			"headline": "독일에서 가장 빨리 유니콘이 된 스타트업 – 고릴라스 (Gorillas)",
+			"url": "https://techneedle.com/archives/41851",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/693f6436-986a-4717-8fce-a84b74129c63_img2@2x_1920-scaled.jpg?fit=960%2C463&ssl=1",
+			"headline": "사람을 위한 모빌리티 – 택배기사 편의성 높인 Arrival 전기트럭",
+			"url": "https://techneedle.com/archives/41716",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/02/최배근-500x462.jpg",
+			"headline": "최배근, ‘대한민국 대전환 100년의 조건’을 말하다",
+			"url": "http://www.itnews.or.kr/?p=34658",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-19-at-9.59.09-PM.png?fit=960%2C489&ssl=1",
+			"headline": "구찌가 펼치는 가상세계 마케팅",
+			"url": "https://techneedle.com/archives/41699",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/06/EjP5kWfVcAMHkxW.png?fit=960%2C480&ssl=1",
+			"headline": "구글의 흑인 창업자 펀드와 다양성 문제",
+			"url": "https://techneedle.com/archives/41912",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/Getir-F.png?fit=960%2C540&ssl=1",
+			"headline": "30분 배달도 느리다! 전세계로 번지고 있는 빠른 (식료품) 배달 전쟁",
+			"url": "https://techneedle.com/archives/41759",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
 			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-29-at-11.14.44-AM.png?fit=960%2C578&ssl=1",
 			"headline": "손정의가 쿠팡만큼 투자한 AutoStore – 쿠팡같은 황금알 될까?",
 			"url": "https://techneedle.com/archives/41744",
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/04/amazon4.png?fit=960%2C503&ssl=1",
-			"headline": "독일 아마존 물류 센터를 가다 (feat. 버추얼 투어)",
-			"url": "https://techneedle.com/archives/41498",
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/KakaoTalk_20210407_120446544-534x462.png",
+			"headline": "스마트폰으로 돈 버는 블로그와 유튜브 과정",
+			"url": "http://www.itnews.or.kr/?p=34923",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -194,10 +173,24 @@
 			"type": "TYPE_NEWS"
 		},
 		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/03/kt-534x462.jpg",
+			"headline": "“종교 후원금, 전화 한 통으로 낸다”",
+			"url": "http://www.itnews.or.kr/?p=34801",
+			"type": "TYPE_NEWS"
+		},
+		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/06/6d490490-b44f-11eb-bcfe-f2faf631cdf8.cf_.jpg?fit=640%2C421&ssl=1",
-			"headline": "페이스북의 기억을 망각하는 인공지능 – Expire Span",
-			"url": "https://techneedle.com/archives/41898",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/06/employee-stock-options-just-ahead-sign-2-650x325-1.jpg?fit=650%2C325&ssl=1",
+			"headline": "스타트업과 스톡옵션 (2부)",
+			"url": "https://techneedle.com/archives/41885",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/문형남.png",
+			"headline": "지속가능과학회, 국가ESG연구원 설립…초대 원장에 문형남 숙대 교수",
+			"url": "http://www.itnews.or.kr/?p=34876",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -208,18 +201,33 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/Getir-F.png?fit=960%2C540&ssl=1",
-			"headline": "30분 배달도 느리다! 전세계로 번지고 있는 빠른 (식료품) 배달 전쟁",
-			"url": "https://techneedle.com/archives/41759",
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/02/응답소-534x462.png",
+			"headline": "에스알포스트, 2년 연속 서울시 응답소 사업수주",
+			"url": "http://www.itnews.or.kr/?p=34692",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/02/20210217-SAPI-NAVER-공동웨비나-포스터-534x450.jpg",
+			"headline": "네이버, 사람 위한 ‘AI 윤리 준칙’ 발표",
+			"url": "http://www.itnews.or.kr/?p=34730",
 			"type": "TYPE_NEWS"
 		}
 	],
 	"data_column": [
 		{
-			"source": "https://woowabros.github.io",
-			"headline": "우아한형제들 Developer Relations-Updated",
-			"url": "https://woowabros.github.io/devrel/2021/04/28/devrel-updated.html",
+			"source": "https://tech.kakao.com/blog/",
+			"headline": "카카오 사내 기술 세미나 ‘Techtalk’ – 네 번째 이야기",
+			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/05/Techtalk_main-802x333.png",
+			"url": "https://tech.kakao.com/2021/05/28/techtalk-04/",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://tech.kakao.com/blog/",
+			"headline": "카카오 사내 기술 세미나 ‘Techtalk’ – 다섯 번째 이야기",
+			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/05/Techtalk_main-802x333.png",
+			"url": "https://tech.kakao.com/2021/06/08/techtalk-05/",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -227,6 +235,18 @@
 			"headline": "FE개발자의 성장 스토리 09 : Offscreencanvas 적용기",
 			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/05/main_fe-802x333.png",
 			"url": "https://tech.kakao.com/2021/06/02/frontend-growth-09/",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "우아한형제들 기획자 소개와 개발자와의 협업문화 인터뷰",
+			"url": "https://woowabros.github.io/interview/2021/06/07/woowahanpm.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "퇴사 부검",
+			"url": "https://woowabros.github.io/experience/2021/04/18/autopsy.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -238,64 +258,14 @@
 		},
 		{
 			"source": "https://woowabros.github.io",
-			"headline": "프로모션용 웹앱 빌더, 만다오",
-			"url": "https://woowabros.github.io/woowabros/2021/03/08/mandao.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://tech.kakao.com/blog/",
-			"headline": "카카오 사내 기술 세미나 ‘Techtalk’ – 네 번째 이야기",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/05/Techtalk_main-802x333.png",
-			"url": "https://tech.kakao.com/2021/05/28/techtalk-04/",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "[모집] 2021우아한테크캠프 4기",
-			"url": "https://woowabros.github.io/devrel/2021/04/20/woowa-techcamp_4th.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "우아한테크코스 한 달 생활기",
-			"url": "https://woowabros.github.io/techcourse/2021/04/02/techcourse-level1-retrospective.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "퇴사 부검",
-			"url": "https://woowabros.github.io/experience/2021/04/18/autopsy.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
 			"headline": "제모옥은 젠킨스 조회로직 개선으로 하겠습니다. 근데 이제 비동기를 곁들인",
 			"url": "https://woowabros.github.io/experience/2021/04/06/fetch-jenkins-api-async.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
 			"source": "https://woowabros.github.io",
-			"headline": "우아한형제들 기획자 소개와 개발자와의 협업문화 인터뷰",
-			"url": "https://woowabros.github.io/interview/2021/06/07/woowahanpm.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://tech.kakao.com/blog/",
-			"headline": "카카오 사내 기술 세미나 ‘Techtalk’ – 다섯 번째 이야기",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/05/Techtalk_main-802x333.png",
-			"url": "https://tech.kakao.com/2021/06/08/techtalk-05/",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "우테코에서 찾은 나만의 효과적인 공부법",
-			"url": "https://woowabros.github.io/techcourse/2021/06/11/techcourse-level2-retrospective.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "우아한테크캠프 Pro 후기",
-			"url": "https://woowabros.github.io/techcourse/2021/03/15/wootecamp-pro.html",
+			"headline": "검색을 위한 데이터 다루기",
+			"url": "https://woowabros.github.io/woowabros/2021/03/02/search-system.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -307,8 +277,38 @@
 		},
 		{
 			"source": "https://woowabros.github.io",
-			"headline": "검색을 위한 데이터 다루기",
-			"url": "https://woowabros.github.io/woowabros/2021/03/02/search-system.html",
+			"headline": "우아한테크코스 한 달 생활기",
+			"url": "https://woowabros.github.io/techcourse/2021/04/02/techcourse-level1-retrospective.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "우아한형제들 Developer Relations-Updated",
+			"url": "https://woowabros.github.io/devrel/2021/04/28/devrel-updated.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "우테코에서 찾은 나만의 효과적인 공부법",
+			"url": "https://woowabros.github.io/techcourse/2021/06/11/techcourse-level2-retrospective.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "프로모션용 웹앱 빌더, 만다오",
+			"url": "https://woowabros.github.io/woowabros/2021/03/08/mandao.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "[모집] 2021우아한테크캠프 4기",
+			"url": "https://woowabros.github.io/devrel/2021/04/20/woowa-techcamp_4th.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "우아한테크캠프 Pro 후기",
+			"url": "https://woowabros.github.io/techcourse/2021/03/15/wootecamp-pro.html",
 			"type": "TYPE_COLUMN"
 		}
 	]
