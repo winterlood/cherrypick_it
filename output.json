@@ -1,21 +1,49 @@
 {
-	"date": "2021-08-25 03:02:57.743603+09:00",
+	"date": "2021-08-25 09:14:32.609573+09:00",
 	"count_total": 45,
 	"count_news": 30,
 	"count_column": 15,
 	"data_news": [
 		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-29-at-11.14.44-AM.png?fit=960%2C578&ssl=1",
+			"headline": "손정의가 쿠팡만큼 투자한 AutoStore – 쿠팡같은 황금알 될까?",
+			"url": "https://techneedle.com/archives/41744",
+			"type": "TYPE_NEWS"
+		},
+		{
 			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/05/get_img-534x462.jpg",
-			"headline": "한국수목원관리원, ESG경영 선포",
-			"url": "http://www.itnews.or.kr/?p=35149",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/KakaoTalk_20210407_120446544-534x462.png",
+			"headline": "스마트폰으로 돈 버는 블로그와 유튜브 과정",
+			"url": "http://www.itnews.or.kr/?p=34923",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/문형남.png",
+			"headline": "지속가능과학회, 국가ESG연구원 설립…초대 원장에 문형남 숙대 교수",
+			"url": "http://www.itnews.or.kr/?p=34876",
 			"type": "TYPE_NEWS"
 		},
 		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/06/employee-stock-options-just-ahead-sign-2-650x325-1.jpg?fit=650%2C325&ssl=1",
-			"headline": "스타트업과 스톡옵션 (2부)",
-			"url": "https://techneedle.com/archives/41885",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/Getir-F.png?fit=960%2C540&ssl=1",
+			"headline": "30분 배달도 느리다! 전세계로 번지고 있는 빠른 (식료품) 배달 전쟁",
+			"url": "https://techneedle.com/archives/41759",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/06/6d490490-b44f-11eb-bcfe-f2faf631cdf8.cf_.jpg?fit=640%2C421&ssl=1",
+			"headline": "페이스북의 기억을 망각하는 인공지능 – Expire Span",
+			"url": "https://techneedle.com/archives/41898",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/06/1234.jpg?fit=879%2C485&ssl=1",
+			"headline": "3D 프린팅 로켓 스타트업 Relativity Space, 스페이스 X의 대항마가 되다",
+			"url": "https://techneedle.com/archives/41868",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -33,59 +61,10 @@
 			"type": "TYPE_NEWS"
 		},
 		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/03/kt-534x462.jpg",
-			"headline": "“종교 후원금, 전화 한 통으로 낸다”",
-			"url": "http://www.itnews.or.kr/?p=34801",
-			"type": "TYPE_NEWS"
-		},
-		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/08/imrs.php_.jpeg?fit=916%2C611&ssl=1",
-			"headline": "기후 변화가 코로나 바이러스 확진 및 사망률과 관련 있는 것으로 밝혀져",
-			"url": "https://techneedle.com/archives/42067",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/07/bell.jpg?fit=626%2C469&ssl=1",
-			"headline": "그레이엄 벨이 알려준 ‘선출원주의’의 중요성",
-			"url": "https://techneedle.com/archives/41986",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/image-3.png?fit=936%2C472&ssl=1",
-			"headline": "스타트업과 스톡옵션 (1부)",
-			"url": "https://techneedle.com/archives/41762",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/IMG_20210428_1-534x462.jpg",
-			"headline": "국제미래학회-티처빌, 국내 첫 ‘미래직업과 미래지도사’ 과정 개설",
-			"url": "http://www.itnews.or.kr/?p=35036",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-29-at-11.14.44-AM.png?fit=960%2C578&ssl=1",
-			"headline": "손정의가 쿠팡만큼 투자한 AutoStore – 쿠팡같은 황금알 될까?",
-			"url": "https://techneedle.com/archives/41744",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/06/6d490490-b44f-11eb-bcfe-f2faf631cdf8.cf_.jpg?fit=640%2C421&ssl=1",
-			"headline": "페이스북의 기억을 망각하는 인공지능 – Expire Span",
-			"url": "https://techneedle.com/archives/41898",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/06/1800x-1.jpg?fit=960%2C640&ssl=1",
-			"headline": "도어대시, 그럽허브 등 대형 플랫폼에 맞서는 로컬 배달 비즈니스의 등장",
-			"url": "https://techneedle.com/archives/41948",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/08/106928413-1629143696392-Navigator_1.jpeg?fit=740%2C416&ssl=1",
+			"headline": "포드, 새로운 SUV 모델에 고속도로에서만 동작하는 자율 주행 보조 기능 추가",
+			"url": "https://techneedle.com/archives/42087",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -97,58 +76,16 @@
 		},
 		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/og-image.png?fit=960%2C502&ssl=1",
-			"headline": "독일에서 가장 빨리 유니콘이 된 스타트업 – 고릴라스 (Gorillas)",
-			"url": "https://techneedle.com/archives/41851",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/06/employee-stock-options-just-ahead-sign-2-650x325-1.jpg?fit=650%2C325&ssl=1",
+			"headline": "스타트업과 스톡옵션 (2부)",
+			"url": "https://techneedle.com/archives/41885",
 			"type": "TYPE_NEWS"
 		},
 		{
 			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/07/71101_71267_3045-1-534x319.jpg",
-			"headline": "지속가능과학회, 학술대회 및 지속가능과학상 시상",
-			"url": "http://www.itnews.or.kr/?p=35259",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/08/106928413-1629143696392-Navigator_1.jpeg?fit=740%2C416&ssl=1",
-			"headline": "포드, 새로운 SUV 모델에 고속도로에서만 동작하는 자율 주행 보조 기능 추가",
-			"url": "https://techneedle.com/archives/42087",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/Getir-F.png?fit=960%2C540&ssl=1",
-			"headline": "30분 배달도 느리다! 전세계로 번지고 있는 빠른 (식료품) 배달 전쟁",
-			"url": "https://techneedle.com/archives/41759",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/KakaoTalk_20210407_120446544-534x462.png",
-			"headline": "스마트폰으로 돈 버는 블로그와 유튜브 과정",
-			"url": "http://www.itnews.or.kr/?p=34923",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/그림1-534x409.png",
-			"headline": "쇼핑 앱 평가 순위, 쿠팡 1위…”현대몰 꼴지”",
-			"url": "http://www.itnews.or.kr/?p=34990",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/693f6436-986a-4717-8fce-a84b74129c63_img2@2x_1920-scaled.jpg?fit=960%2C463&ssl=1",
-			"headline": "사람을 위한 모빌리티 – 택배기사 편의성 높인 Arrival 전기트럭",
-			"url": "https://techneedle.com/archives/41716",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/05/mercedes-benz-genh2-truck-concept_100761898_h.jpg?fit=960%2C632&ssl=1",
-			"headline": "벤츠의 트럭 엔진 공장, 50% 인력 감축 위기",
-			"url": "https://techneedle.com/archives/41776",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/IMG_20210428_1-534x462.jpg",
+			"headline": "국제미래학회-티처빌, 국내 첫 ‘미래직업과 미래지도사’ 과정 개설",
+			"url": "http://www.itnews.or.kr/?p=35036",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -156,20 +93,6 @@
 			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/07/5c13d8cc71024.image_.jpg?fit=960%2C640&ssl=1",
 			"headline": "식료품 배달 스타트업 고퍼프(GoPuff) 1조 1천억 원 투자 유치",
 			"url": "https://techneedle.com/archives/42011",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/250-김태겸KakaoTalk_20210414_143549804-534x462.jpg",
-			"headline": "정부, 현장 투입 실무형 블록체인 개발자 양성",
-			"url": "http://www.itnews.or.kr/?p=34942",
-			"type": "TYPE_NEWS"
-		},
-		{
-			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/코로나19를-이기는-힘-534x462.png",
-			"headline": "코로나19를 이기는 힘 ‘재미가 세상을 바꾼다’",
-			"url": "http://www.itnews.or.kr/?p=34880",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -187,10 +110,52 @@
 			"type": "TYPE_NEWS"
 		},
 		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/image-3.png?fit=936%2C472&ssl=1",
+			"headline": "스타트업과 스톡옵션 (1부)",
+			"url": "https://techneedle.com/archives/41762",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/07/bell.jpg?fit=626%2C469&ssl=1",
+			"headline": "그레이엄 벨이 알려준 ‘선출원주의’의 중요성",
+			"url": "https://techneedle.com/archives/41986",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/03/kt-534x462.jpg",
+			"headline": "“종교 후원금, 전화 한 통으로 낸다”",
+			"url": "http://www.itnews.or.kr/?p=34801",
+			"type": "TYPE_NEWS"
+		},
+		{
 			"source": "http://www.itnews.or.kr/",
 			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/05/1-1-534x387.png",
 			"headline": "과실연 호남권, “탄소중립 단기 아닌 상향식 중장기로”",
 			"url": "http://www.itnews.or.kr/?p=35176",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/08/imrs.php_.jpeg?fit=916%2C611&ssl=1",
+			"headline": "기후 변화가 코로나 바이러스 확진 및 사망률과 관련 있는 것으로 밝혀져",
+			"url": "https://techneedle.com/archives/42067",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i0.wp.com/techneedle.com/wp-content/uploads/2021/05/og-image.png?fit=960%2C502&ssl=1",
+			"headline": "독일에서 가장 빨리 유니콘이 된 스타트업 – 고릴라스 (Gorillas)",
+			"url": "https://techneedle.com/archives/41851",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/250-김태겸KakaoTalk_20210414_143549804-534x462.jpg",
+			"headline": "정부, 현장 투입 실무형 블록체인 개발자 양성",
+			"url": "http://www.itnews.or.kr/?p=34942",
 			"type": "TYPE_NEWS"
 		},
 		{
@@ -202,32 +167,91 @@
 		},
 		{
 			"source": "https://techneedle.com",
-			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/06/1234.jpg?fit=879%2C485&ssl=1",
-			"headline": "3D 프린팅 로켓 스타트업 Relativity Space, 스페이스 X의 대항마가 되다",
-			"url": "https://techneedle.com/archives/41868",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/06/1800x-1.jpg?fit=960%2C640&ssl=1",
+			"headline": "도어대시, 그럽허브 등 대형 플랫폼에 맞서는 로컬 배달 비즈니스의 등장",
+			"url": "https://techneedle.com/archives/41948",
 			"type": "TYPE_NEWS"
 		},
 		{
 			"source": "http://www.itnews.or.kr/",
-			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/문형남.png",
-			"headline": "지속가능과학회, 국가ESG연구원 설립…초대 원장에 문형남 숙대 교수",
-			"url": "http://www.itnews.or.kr/?p=34876",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/05/get_img-534x462.jpg",
+			"headline": "한국수목원관리원, ESG경영 선포",
+			"url": "http://www.itnews.or.kr/?p=35149",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i1.wp.com/techneedle.com/wp-content/uploads/2021/05/mercedes-benz-genh2-truck-concept_100761898_h.jpg?fit=960%2C632&ssl=1",
+			"headline": "벤츠의 트럭 엔진 공장, 50% 인력 감축 위기",
+			"url": "https://techneedle.com/archives/41776",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/그림1-534x409.png",
+			"headline": "쇼핑 앱 평가 순위, 쿠팡 1위…”현대몰 꼴지”",
+			"url": "http://www.itnews.or.kr/?p=34990",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/07/71101_71267_3045-1-534x319.jpg",
+			"headline": "지속가능과학회, 학술대회 및 지속가능과학상 시상",
+			"url": "http://www.itnews.or.kr/?p=35259",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "https://techneedle.com",
+			"thumbnail_url": "https://i2.wp.com/techneedle.com/wp-content/uploads/2021/05/693f6436-986a-4717-8fce-a84b74129c63_img2@2x_1920-scaled.jpg?fit=960%2C463&ssl=1",
+			"headline": "사람을 위한 모빌리티 – 택배기사 편의성 높인 Arrival 전기트럭",
+			"url": "https://techneedle.com/archives/41716",
+			"type": "TYPE_NEWS"
+		},
+		{
+			"source": "http://www.itnews.or.kr/",
+			"thumbnail_url": "http://www.itnews.or.kr/wp-content/uploads/2021/04/코로나19를-이기는-힘-534x462.png",
+			"headline": "코로나19를 이기는 힘 ‘재미가 세상을 바꾼다’",
+			"url": "http://www.itnews.or.kr/?p=34880",
 			"type": "TYPE_NEWS"
 		}
 	],
 	"data_column": [
 		{
 			"source": "https://tech.kakao.com/blog/",
-			"headline": "Generative Adversarial Networks를 이용한 Nickface 개발",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/07/main-3-802x333.png",
-			"url": "https://tech.kakao.com/2021/08/04/nickface/",
+			"headline": "FE개발자의 성장 스토리 11 : Electron, 저도 한번 해보겠습니다.",
+			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/05/main_fe-802x333.png",
+			"url": "https://tech.kakao.com/2021/08/17/frontend-growth-11/",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "[모집] 2021우아한테크캠프 4기",
+			"url": "https://woowabros.github.io/devrel/2021/04/20/woowa-techcamp_4th.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "검색을 위한 데이터 다루기",
+			"url": "https://woowabros.github.io/woowabros/2021/03/02/search-system.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "우아한형제들 Developer Relations-Updated",
+			"url": "https://woowabros.github.io/devrel/2021/04/28/devrel-updated.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "우아한형제들 기획자 소개와 개발자와의 협업문화 인터뷰",
+			"url": "https://woowabros.github.io/interview/2021/06/07/woowahanpm.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
 			"source": "https://tech.kakao.com/blog/",
-			"headline": "[카.올.시.]  Front-End 개발자라면 카카오에 올 시간입니다.",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/07/배너-802x333.png",
-			"url": "https://tech.kakao.com/2021/07/30/frontend-recruitment/",
+			"headline": "Generative Adversarial Networks를 이용한 Nickface 개발",
+			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/07/main-3-802x333.png",
+			"url": "https://tech.kakao.com/2021/08/04/nickface/",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -238,8 +262,8 @@
 		},
 		{
 			"source": "https://woowabros.github.io",
-			"headline": "우아한형제들 Developer Relations-Updated",
-			"url": "https://woowabros.github.io/devrel/2021/04/28/devrel-updated.html",
+			"headline": "우아한테크코스 한 달 생활기",
+			"url": "https://woowabros.github.io/techcourse/2021/04/02/techcourse-level1-retrospective.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -250,9 +274,22 @@
 			"type": "TYPE_COLUMN"
 		},
 		{
+			"source": "https://tech.kakao.com/blog/",
+			"headline": "[카.올.시.]  Android 개발자라면 카카오에 올 시간입니다.",
+			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/07/배너-802x333.png",
+			"url": "https://tech.kakao.com/2021/07/30/android-recruitment/",
+			"type": "TYPE_COLUMN"
+		},
+		{
 			"source": "https://woowabros.github.io",
-			"headline": "우아한테크코스 한 달 생활기",
-			"url": "https://woowabros.github.io/techcourse/2021/04/02/techcourse-level1-retrospective.html",
+			"headline": "퇴사 부검",
+			"url": "https://woowabros.github.io/experience/2021/04/18/autopsy.html",
+			"type": "TYPE_COLUMN"
+		},
+		{
+			"source": "https://woowabros.github.io",
+			"headline": "프로모션용 웹앱 빌더, 만다오",
+			"url": "https://woowabros.github.io/woowabros/2021/03/08/mandao.html",
 			"type": "TYPE_COLUMN"
 		},
 		{
@@ -268,47 +305,10 @@
 			"type": "TYPE_COLUMN"
 		},
 		{
-			"source": "https://woowabros.github.io",
-			"headline": "검색을 위한 데이터 다루기",
-			"url": "https://woowabros.github.io/woowabros/2021/03/02/search-system.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "우아한형제들 기획자 소개와 개발자와의 협업문화 인터뷰",
-			"url": "https://woowabros.github.io/interview/2021/06/07/woowahanpm.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
 			"source": "https://tech.kakao.com/blog/",
-			"headline": "[카.올.시.]  Android 개발자라면 카카오에 올 시간입니다.",
+			"headline": "[카.올.시.]  Front-End 개발자라면 카카오에 올 시간입니다.",
 			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/07/배너-802x333.png",
-			"url": "https://tech.kakao.com/2021/07/30/android-recruitment/",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "프로모션용 웹앱 빌더, 만다오",
-			"url": "https://woowabros.github.io/woowabros/2021/03/08/mandao.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "[모집] 2021우아한테크캠프 4기",
-			"url": "https://woowabros.github.io/devrel/2021/04/20/woowa-techcamp_4th.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://woowabros.github.io",
-			"headline": "퇴사 부검",
-			"url": "https://woowabros.github.io/experience/2021/04/18/autopsy.html",
-			"type": "TYPE_COLUMN"
-		},
-		{
-			"source": "https://tech.kakao.com/blog/",
-			"headline": "FE개발자의 성장 스토리 11 : Electron, 저도 한번 해보겠습니다.",
-			"thumbnail_url": "https://tech.kakao.com/wp-content/uploads/2021/05/main_fe-802x333.png",
-			"url": "https://tech.kakao.com/2021/08/17/frontend-growth-11/",
+			"url": "https://tech.kakao.com/2021/07/30/frontend-recruitment/",
 			"type": "TYPE_COLUMN"
 		}
 	]
